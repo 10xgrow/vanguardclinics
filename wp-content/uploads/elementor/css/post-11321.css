@@ -1,0 +1,60 @@
+.elementor-11321 .elementor-element.elementor-element-16a69157,
+.elementor-11321 .elementor-element.elementor-element-16a69157>.elementor-background-overlay {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.elementor-11321 .elementor-element.elementor-element-16a69157 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-11321 .elementor-element.elementor-element-65ee12b2>.elementor-element-populated {
+    border-style: none;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-11321 .elementor-element.elementor-element-65ee12b2>.elementor-element-populated,
+.elementor-11321 .elementor-element.elementor-element-65ee12b2>.elementor-element-populated>.elementor-background-overlay,
+.elementor-11321 .elementor-element.elementor-element-65ee12b2>.elementor-background-slideshow {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.elementor-11321 .elementor-element.elementor-element-65ee12b2>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-11321 .elementor-element.elementor-element-b8153c9>.elementor-widget-container {
+    padding: 15px 20px 0px 20px;
+}
+
+.elementor-11321 .elementor-element.elementor-element-aad698f>.elementor-widget-container {
+    padding: 0px 20px 0px 20px;
+}
+
+/* Start custom CSS for column, class: .elementor-element-65ee12b2 */
+
+.elementor-11321 .elementor-element.elementor-element-65ee12b2 {
+    height: 400px !important;
+}
+
+.stc-bg {
+    background-color: {
+            {
+            TERM_META: services:services_color
+        }
+    }
+    ;
+}
+
+/* End custom CSS */
+
+/* Start custom CSS for section, class: .elementor-element-16a69157 */
+
+.hometile-v2 {}
+
+/* End custom CSS */

@@ -1,0 +1,378 @@
+.elementor-5992 .elementor-element.elementor-element-654b703:not(.elementor-motion-effects-element-type-background),
+.elementor-5992 .elementor-element.elementor-element-654b703>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: var( --e-global-color-primary);
+}
+
+.elementor-5992 .elementor-element.elementor-element-654b703>.elementor-background-overlay {
+    background-image: url("https://wellclinics.ca/wp-content/uploads/2023/03/white_dots-1.png");
+    opacity: 0.1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-5992 .elementor-element.elementor-element-654b703 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 60px 0px 0px 20px;
+    z-index: 9998;
+}
+
+.elementor-5992 .elementor-element.elementor-element-0692d23>.elementor-widget-wrap>.elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
+    margin-bottom: 0px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-0692d23>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-2175b30 {
+    width: auto;
+    max-width: auto;
+}
+
+.elementor-5992 .elementor-element.elementor-element-2175b30>.elementor-widget-container {
+    margin: 15px 15px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-2175b30 .elementor-icon-wrapper {
+    text-align: left;
+}
+
+.elementor-5992 .elementor-element.elementor-element-2175b30.elementor-view-stacked .elementor-icon {
+    background-color: var( --e-global-color-8310766);
+}
+
+.elementor-5992 .elementor-element.elementor-element-2175b30.elementor-view-framed .elementor-icon,
+.elementor-5992 .elementor-element.elementor-element-2175b30.elementor-view-default .elementor-icon {
+    color: var( --e-global-color-8310766);
+    border-color: var( --e-global-color-8310766);
+}
+
+.elementor-5992 .elementor-element.elementor-element-2175b30.elementor-view-framed .elementor-icon,
+.elementor-5992 .elementor-element.elementor-element-2175b30.elementor-view-default .elementor-icon svg {
+    fill: var( --e-global-color-8310766);
+}
+
+.elementor-5992 .elementor-element.elementor-element-2175b30 .elementor-icon {
+    font-size: 40px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-2175b30 .elementor-icon svg {
+    height: 40px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 .menu-item a.hfe-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 .menu-item a.hfe-sub-menu-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 .sub-menu li a.hfe-sub-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown li a.hfe-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible li a.hfe-menu-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible a.hfe-sub-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown li a.hfe-sub-menu-item {
+    padding-left: calc( 10px + 20px);
+    padding-right: 10px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 .hfe-dropdown .menu-item ul ul a.hfe-sub-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 .hfe-dropdown-expandible .menu-item ul ul a.hfe-sub-menu-item {
+    padding-left: calc( 10px + 40px);
+    padding-right: 10px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 .hfe-dropdown .menu-item ul ul ul a.hfe-sub-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 .hfe-dropdown-expandible .menu-item ul ul ul a.hfe-sub-menu-item {
+    padding-left: calc( 10px + 60px);
+    padding-right: 10px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 .hfe-dropdown .menu-item ul ul ul ul a.hfe-sub-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 .hfe-dropdown-expandible .menu-item ul ul ul ul a.hfe-sub-menu-item {
+    padding-left: calc( 10px + 80px);
+    padding-right: 10px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 .sub-menu a.hfe-sub-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown li a.hfe-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown li a.hfe-sub-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible li a.hfe-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-nav-menu__layout-horizontal:not(.hfe-dropdown) ul.sub-menu,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-nav-menu__layout-expandible.menu-is-active,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-nav-menu__layout-vertical:not(.hfe-dropdown) ul.sub-menu {
+    margin-top: 0px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 .hfe-dropdown.menu-is-active {
+    margin-top: 0px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 {
+    width: auto;
+    max-width: auto;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 a.hfe-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 a.hfe-sub-menu-item {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 .menu-item a.hfe-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 .sub-menu a.hfe-sub-menu-item {
+    color: var( --e-global-color-8310766);
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 .sub-menu a.hfe-sub-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 .elementor-menu-toggle,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown li a.hfe-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown li a.hfe-sub-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible li a.hfe-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item {
+    color: var( --e-global-color-56f738c);
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 .sub-menu,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+    background-color: #fff;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 .sub-menu a.hfe-sub-menu-item:hover,
+.elementor-5992 .elementor-element.elementor-element-da43853 .elementor-menu-toggle:hover,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown li a.hfe-menu-item:hover,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown li a.hfe-sub-menu-item:hover,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible li a.hfe-menu-item:hover,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item:hover {
+    color: var( --e-global-color-text);
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 .sub-menu li a.hfe-sub-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown li a.hfe-sub-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown li a.hfe-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible li a.hfe-menu-item,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item {
+    font-size: 24px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-nav-menu__layout-horizontal .sub-menu,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav:not(.hfe-nav-menu__layout-horizontal) .sub-menu.sub-menu-open,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown .hfe-nav-menu,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible .hfe-nav-menu {
+    border-style: none;
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 .hfe-nav-menu .sub-menu,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown,
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible {
+    box-shadow: 15px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.elementor-5992 .elementor-element.elementor-element-da43853 .sub-menu li.menu-item:not(:last-child),
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown li.menu-item:not(:last-child),
+.elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible li.menu-item:not(:last-child) {
+    border-bottom-style: none;
+}
+
+.elementor-5992 .elementor-element.elementor-element-0c4d7fe>.elementor-widget-container {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-0c4d7fe {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: var( --e-global-color-8310766);
+}
+
+.elementor-5992 .elementor-element.elementor-element-58c0653>.elementor-widget-container {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-5992 .elementor-element.elementor-element-58c0653 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: var( --e-global-color-8310766);
+}
+
+#elementor-popup-modal-5992 .dialog-widget-content {
+    animation-duration: 1.2s;
+    box-shadow: 2px 8px 23px 3px rgba(0, 0, 0, 0.2);
+    margin: 180px 0px 0px 0px;
+}
+
+#elementor-popup-modal-5992 .dialog-message {
+    width: 100vw;
+    height: 100vh;
+    align-items: flex-start;
+}
+
+#elementor-popup-modal-5992 {
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:1200px) {
+    .elementor-5992 .elementor-element.elementor-element-654b703 {
+        padding: 60px 0px 0px 60px;
+    }
+    .elementor-5992 .elementor-element.elementor-element-2175b30 .elementor-icon {
+        font-size: 30px;
+    }
+    .elementor-5992 .elementor-element.elementor-element-2175b30 .elementor-icon svg {
+        height: 30px;
+    }
+    .elementor-5992 .elementor-element.elementor-element-da43853 a.hfe-menu-item,
+    .elementor-5992 .elementor-element.elementor-element-da43853 a.hfe-sub-menu-item {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .elementor-5992 .elementor-element.elementor-element-0c4d7fe>.elementor-widget-container {
+        padding: 10px 0px 0px 0px;
+    }
+    .elementor-5992 .elementor-element.elementor-element-0c4d7fe {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .elementor-5992 .elementor-element.elementor-element-58c0653>.elementor-widget-container {
+        padding: 10px 0px 0px 0px;
+    }
+    .elementor-5992 .elementor-element.elementor-element-58c0653 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    #elementor-popup-modal-5992 .dialog-message {
+        height: 92vh;
+    }
+}
+
+@media(max-width:1023px) {
+    #elementor-popup-modal-5992 .dialog-message {
+        height: 92vh;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-5992 .elementor-element.elementor-element-654b703 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 060px 20px 0px 20px;
+    }
+    .elementor-5992 .elementor-element.elementor-element-357e521>.elementor-element-populated {
+        padding: 0px 0px 0px 0px;
+    }
+    .elementor-5992 .elementor-element.elementor-element-2175b30>.elementor-widget-container {
+        margin: 15px 10px 0px 0px;
+    }
+    .elementor-5992 .elementor-element.elementor-element-2175b30 .elementor-icon {
+        font-size: 24px;
+    }
+    .elementor-5992 .elementor-element.elementor-element-2175b30 .elementor-icon svg {
+        height: 24px;
+    }
+    .elementor-5992 .elementor-element.elementor-element-da43853 a.hfe-menu-item,
+    .elementor-5992 .elementor-element.elementor-element-da43853 a.hfe-sub-menu-item {
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .elementor-5992 .elementor-element.elementor-element-0c4d7fe {
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .elementor-5992 .elementor-element.elementor-element-58c0653 {
+        font-size: 26px;
+        line-height: 31px;
+    }
+    #elementor-popup-modal-5992 .dialog-message {
+        height: 91vh;
+    }
+    #elementor-popup-modal-5992 .dialog-widget-content {
+        margin: 135px 0px 0px 0px;
+    }
+}
+
+/* Start custom CSS for navigation-menu, class: .elementor-element-da43853 */
+
+.hfe-nav-menu .sub-arrow {
+    color: #2f6aa8;
+}
+
+ul.sub-menu {
+    padding: 15px !important;
+}
+
+a.hfe-menu-item:hover {
+    color: #214a76 !important;
+}
+
+.c-menu .sub-arrow {
+    font-size: 24px !important;
+    color: white !important;
+}
+
+/* End custom CSS */
+
+/* Start custom CSS for text-editor, class: .elementor-element-0c4d7fe */
+
+.elementor-5992 .elementor-element.elementor-element-0c4d7fe a {
+    color: white !important;
+}
+
+.elementor-5992 .elementor-element.elementor-element-0c4d7fe a:hover {
+    color: #214a76 !important;
+}
+
+/* End custom CSS */
+
+/* Start custom CSS for text-editor, class: .elementor-element-58c0653 */
+
+.elementor-5992 .elementor-element.elementor-element-58c0653 a {
+    color: white !important;
+}
+
+.elementor-5992 .elementor-element.elementor-element-58c0653 a:hover {
+    color: #214a76 !important;
+}
+
+/* End custom CSS */
+
+/* Start custom CSS for section, class: .elementor-element-654b703 */
+
+.elementor-5992 .elementor-element.elementor-element-654b703 {
+    height: 100vh !important;
+}
+
+/* End custom CSS */
