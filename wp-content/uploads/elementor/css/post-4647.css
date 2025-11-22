@@ -27,11 +27,11 @@
 
 .elementor-4647 .elementor-element.elementor-element-604e84b:not(.elementor-motion-effects-element-type-background),
 .elementor-4647 .elementor-element.elementor-element-604e84b>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: var( --e-global-color-primary);
+    background-color: var(--e-global-color-primary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-604e84b>.elementor-background-overlay {
-    background-image: url("https://wellclinics.ca/wp-content/uploads/2023/03/white_dots-1.png");
+    background-image: url("/wp-content/uploads/2023/03/white_dots-1.png");
     background-repeat: repeat;
     opacity: 0.1;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
@@ -77,7 +77,7 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-a3ce7b4 .jet-animated-text__animated-text {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
     font-size: 60px;
     font-weight: 700;
     text-transform: none;
@@ -101,7 +101,7 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-523750e .jet-animated-text__before-text {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
     font-size: 60px;
     font-weight: 700;
     text-transform: none;
@@ -112,7 +112,7 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-523750e .jet-animated-text__animated-text {
-    color: var( --e-global-color-text);
+    color: var(--e-global-color-text);
     font-size: 60px;
     font-weight: 700;
     text-transform: none;
@@ -123,14 +123,14 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-ec76a16 .elementor-button {
-    background-color: var( --e-global-color-text);
+    background-color: var(--e-global-color-text);
     font-size: 16px;
     font-weight: 700;
     text-transform: none;
     font-style: normal;
     text-decoration: none;
-    fill: var( --e-global-color-8310766);
-    color: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
+    color: var(--e-global-color-8310766);
     border-radius: 30px 30px 30px 30px;
     padding: 12px 20px 12px 20px;
 }
@@ -145,14 +145,14 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-ff26fdf .elementor-button {
-    background-color: var( --e-global-color-text);
+    background-color: var(--e-global-color-text);
     font-size: 16px;
     font-weight: 700;
     text-transform: none;
     font-style: normal;
     text-decoration: none;
-    fill: var( --e-global-color-8310766);
-    color: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
+    color: var(--e-global-color-8310766);
     border-radius: 30px 30px 30px 30px;
     padding: 12px 20px 12px 20px;
 }
@@ -173,15 +173,15 @@
     text-transform: none;
     font-style: normal;
     text-decoration: none;
-    fill: var( --e-global-color-8310766);
-    color: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
+    color: var(--e-global-color-8310766);
     border-radius: 30px 30px 30px 30px;
     padding: 12px 20px 12px 20px;
 }
 
 .elementor-4647 .elementor-element.elementor-element-d71df33 .elementor-button:hover,
 .elementor-4647 .elementor-element.elementor-element-d71df33 .elementor-button:focus {
-    background-color: var( --e-global-color-text);
+    background-color: var(--e-global-color-text);
 }
 
 .elementor-4647 .elementor-element.elementor-element-d71df33 {
@@ -197,7 +197,7 @@
     font-size: 20px;
     font-weight: bold;
     line-height: 28px;
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-1767fdc>.elementor-widget-container {
@@ -301,7 +301,7 @@
 
 .elementor-4647 .elementor-element.elementor-element-1b7efa6:not(.elementor-motion-effects-element-type-background),
 .elementor-4647 .elementor-element.elementor-element-1b7efa6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: var( --e-global-color-secondary);
+    background-color: var(--e-global-color-secondary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-1b7efa6>.elementor-container {
@@ -336,13 +336,13 @@
     text-decoration: none;
     line-height: 22px;
     letter-spacing: -0.5px;
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-e67864b>.elementor-element-populated {
     border-style: solid;
     border-width: 0px 1px 0px 1px;
-    border-color: var( --e-global-color-primary);
+    border-color: var(--e-global-color-primary);
     padding: 19px 0px 19px 0px;
 }
 
@@ -364,7 +364,7 @@
     text-decoration: none;
     line-height: 22px;
     letter-spacing: -0.5px;
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-4258ab6 {
@@ -379,7 +379,7 @@
     text-decoration: none;
     line-height: 22px;
     letter-spacing: -0.5px;
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-b202618>.elementor-background-overlay {
@@ -413,7 +413,7 @@
     font-size: 44px;
     line-height: 62px;
     letter-spacing: -0.5px;
-    color: var( --e-global-color-primary);
+    color: var(--e-global-color-primary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-f2497e1>.elementor-widget-container {
@@ -427,7 +427,7 @@
     font-style: normal;
     text-decoration: none;
     line-height: 28px;
-    color: var( --e-global-color-6b6f2ff);
+    color: var(--e-global-color-6b6f2ff);
 }
 
 .elementor-4647 .elementor-element.elementor-element-e5d3485 {
@@ -439,7 +439,7 @@
     font-style: normal;
     text-decoration: none;
     line-height: 28px;
-    color: var( --e-global-color-6b6f2ff);
+    color: var(--e-global-color-6b6f2ff);
 }
 
 .elementor-4647 .elementor-element.elementor-element-e5d3485>.elementor-widget-container {
@@ -455,16 +455,16 @@
     font-style: normal;
     text-decoration: none;
     line-height: 18px;
-    fill: var( --e-global-color-8310766);
-    color: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
+    color: var(--e-global-color-8310766);
     border-radius: 60px 60px 60px 60px;
     padding: 12px 22px 12px 22px;
 }
 
 .elementor-4647 .elementor-element.elementor-element-d2b5098 .elementor-button:hover,
 .elementor-4647 .elementor-element.elementor-element-d2b5098 .elementor-button:focus {
-    background-color: var( --e-global-color-text);
-    color: var( --e-global-color-8310766);
+    background-color: var(--e-global-color-text);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-d2b5098 {
@@ -478,7 +478,7 @@
 
 .elementor-4647 .elementor-element.elementor-element-d2b5098 .elementor-button:hover svg,
 .elementor-4647 .elementor-element.elementor-element-d2b5098 .elementor-button:focus svg {
-    fill: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-af5d4f3 .elementor-button {
@@ -489,16 +489,16 @@
     font-style: normal;
     text-decoration: none;
     line-height: 18px;
-    fill: var( --e-global-color-8310766);
-    color: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
+    color: var(--e-global-color-8310766);
     border-radius: 60px 60px 60px 60px;
     padding: 12px 22px 12px 22px;
 }
 
 .elementor-4647 .elementor-element.elementor-element-af5d4f3 .elementor-button:hover,
 .elementor-4647 .elementor-element.elementor-element-af5d4f3 .elementor-button:focus {
-    background-color: var( --e-global-color-text);
-    color: var( --e-global-color-8310766);
+    background-color: var(--e-global-color-text);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-af5d4f3 {
@@ -512,7 +512,7 @@
 
 .elementor-4647 .elementor-element.elementor-element-af5d4f3 .elementor-button:hover svg,
 .elementor-4647 .elementor-element.elementor-element-af5d4f3 .elementor-button:focus svg {
-    fill: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-ac98e9a .elementor-button {
@@ -523,16 +523,16 @@
     font-style: normal;
     text-decoration: none;
     line-height: 18px;
-    fill: var( --e-global-color-8310766);
-    color: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
+    color: var(--e-global-color-8310766);
     border-radius: 60px 60px 60px 60px;
     padding: 12px 22px 12px 22px;
 }
 
 .elementor-4647 .elementor-element.elementor-element-ac98e9a .elementor-button:hover,
 .elementor-4647 .elementor-element.elementor-element-ac98e9a .elementor-button:focus {
-    background-color: var( --e-global-color-text);
-    color: var( --e-global-color-8310766);
+    background-color: var(--e-global-color-text);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-ac98e9a {
@@ -546,7 +546,7 @@
 
 .elementor-4647 .elementor-element.elementor-element-ac98e9a .elementor-button:hover svg,
 .elementor-4647 .elementor-element.elementor-element-ac98e9a .elementor-button:focus svg {
-    fill: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-0c5ca81 .elementor-button {
@@ -557,16 +557,16 @@
     font-style: normal;
     text-decoration: none;
     line-height: 18px;
-    fill: var( --e-global-color-8310766);
-    color: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
+    color: var(--e-global-color-8310766);
     border-radius: 60px 60px 60px 60px;
     padding: 12px 22px 12px 22px;
 }
 
 .elementor-4647 .elementor-element.elementor-element-0c5ca81 .elementor-button:hover,
 .elementor-4647 .elementor-element.elementor-element-0c5ca81 .elementor-button:focus {
-    background-color: var( --e-global-color-text);
-    color: var( --e-global-color-8310766);
+    background-color: var(--e-global-color-text);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-0c5ca81 {
@@ -580,7 +580,7 @@
 
 .elementor-4647 .elementor-element.elementor-element-0c5ca81 .elementor-button:hover svg,
 .elementor-4647 .elementor-element.elementor-element-0c5ca81 .elementor-button:focus svg {
-    fill: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-17772d6>.elementor-widget-container {
@@ -595,7 +595,7 @@
     font-style: normal;
     text-decoration: underline;
     line-height: 28px;
-    color: var( --e-global-color-primary);
+    color: var(--e-global-color-primary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-7026dff {
@@ -637,7 +637,7 @@
 
 .elementor-4647 .elementor-element.elementor-element-ddc3f85 .elementor-swiper-button.elementor-swiper-button-prev,
 .elementor-4647 .elementor-element.elementor-element-ddc3f85 .elementor-swiper-button.elementor-swiper-button-next {
-    color: var( --e-global-color-primary);
+    color: var(--e-global-color-primary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-ddc3f85 .dce-view-exposed-form label.dce-view-input-label {
@@ -690,7 +690,7 @@
     font-size: 44px;
     line-height: 62px;
     letter-spacing: -0.5px;
-    color: var( --e-global-color-primary);
+    color: var(--e-global-color-primary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-4377ab9>.elementor-widget-container {
@@ -704,7 +704,7 @@
     font-style: normal;
     text-decoration: none;
     line-height: 28px;
-    color: var( --e-global-color-6b6f2ff);
+    color: var(--e-global-color-6b6f2ff);
 }
 
 .elementor-4647 .elementor-element.elementor-element-108a461 .elementor-button {
@@ -715,9 +715,9 @@
     font-style: normal;
     text-decoration: none;
     line-height: 28px;
-    fill: var( --e-global-color-8310766);
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-primary) 0%, var( --e-global-color-secondary) 100%);
+    fill: var(--e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-primary) 0%, var(--e-global-color-secondary) 100%);
     border-radius: 30px 30px 30px 30px;
     padding: 14px 30px 13px 30px;
 }
@@ -725,8 +725,8 @@
 .elementor-4647 .elementor-element.elementor-element-108a461 .elementor-button:hover,
 .elementor-4647 .elementor-element.elementor-element-108a461 .elementor-button:focus {
     background-color: transparent;
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-text) 0%, var( --e-global-color-text) 100%);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-text) 0%, var(--e-global-color-text) 100%);
 }
 
 .elementor-4647 .elementor-element.elementor-element-108a461 {
@@ -748,7 +748,7 @@
 
 .elementor-4647 .elementor-element.elementor-element-108a461 .elementor-button:hover svg,
 .elementor-4647 .elementor-element.elementor-element-108a461 .elementor-button:focus svg {
-    fill: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
 }
 
 .elementor-bc-flex-widget .elementor-4647 .elementor-element.elementor-element-b3e803c.elementor-column .elementor-widget-wrap {
@@ -776,7 +776,7 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-2263f3e .swiper-slide-bg {
-    background-image: url(https://wellclinics.ca/wp-content/uploads/2023/04/ab_carousel-1-1.jpg);
+    background-image: url(/wp-content/uploads/2023/04/ab_carousel-1-1.jpg);
     background-size: cover;
 }
 
@@ -790,20 +790,20 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-2263f3e .swiper-slide-inner .elementor-slide-heading {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-2263f3e .swiper-slide-inner .elementor-slide-description {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-2263f3e .swiper-slide-inner .elementor-slide-button {
-    color: var( --e-global-color-8310766);
-    border-color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    border-color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-f03669f .swiper-slide-bg {
-    background-image: url(https://wellclinics.ca/wp-content/uploads/2022/07/Medical-Aesthetics-area.jpeg);
+    background-image: url(/wp-content/uploads/2022/07/Medical-Aesthetics-area.jpeg);
     background-size: cover;
 }
 
@@ -817,20 +817,20 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-f03669f .swiper-slide-inner .elementor-slide-heading {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-f03669f .swiper-slide-inner .elementor-slide-description {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-f03669f .swiper-slide-inner .elementor-slide-button {
-    color: var( --e-global-color-8310766);
-    border-color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    border-color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-4675aa9 .swiper-slide-bg {
-    background-image: url(https://wellclinics.ca/wp-content/uploads/2023/04/bc_carousel-1-1.jpg);
+    background-image: url(/wp-content/uploads/2023/04/bc_carousel-1-1.jpg);
     background-size: cover;
 }
 
@@ -844,20 +844,20 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-4675aa9 .swiper-slide-inner .elementor-slide-heading {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-4675aa9 .swiper-slide-inner .elementor-slide-description {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-4675aa9 .swiper-slide-inner .elementor-slide-button {
-    color: var( --e-global-color-8310766);
-    border-color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    border-color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-c79874a .swiper-slide-bg {
-    background-image: url(https://wellclinics.ca/wp-content/uploads/2021/03/thumbnail-7.png);
+    background-image: url(/wp-content/uploads/2021/03/thumbnail-7.png);
     background-size: cover;
 }
 
@@ -871,20 +871,20 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-c79874a .swiper-slide-inner .elementor-slide-heading {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-c79874a .swiper-slide-inner .elementor-slide-description {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-c79874a .swiper-slide-inner .elementor-slide-button {
-    color: var( --e-global-color-8310766);
-    border-color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    border-color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-6ea6a45 .swiper-slide-bg {
-    background-image: url(https://wellclinics.ca/wp-content/uploads/2023/04/on_carousel-1-1.jpg);
+    background-image: url(/wp-content/uploads/2023/04/on_carousel-1-1.jpg);
     background-size: cover;
 }
 
@@ -898,20 +898,20 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-6ea6a45 .swiper-slide-inner .elementor-slide-heading {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-6ea6a45 .swiper-slide-inner .elementor-slide-description {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-6ea6a45 .swiper-slide-inner .elementor-slide-button {
-    color: var( --e-global-color-8310766);
-    border-color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    border-color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-579ce49 .swiper-slide-bg {
-    background-image: url(https://wellclinics.ca/wp-content/uploads/2022/02/e8a5bad4-c6e2-42c1-bc99-51fff02674d5-1.jpeg);
+    background-image: url(/wp-content/uploads/2022/02/e8a5bad4-c6e2-42c1-bc99-51fff02674d5-1.jpeg);
     background-size: cover;
 }
 
@@ -925,20 +925,20 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-579ce49 .swiper-slide-inner .elementor-slide-heading {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-579ce49 .swiper-slide-inner .elementor-slide-description {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-579ce49 .swiper-slide-inner .elementor-slide-button {
-    color: var( --e-global-color-8310766);
-    border-color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    border-color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-1369efd .swiper-slide-bg {
-    background-image: url(https://wellclinics.ca/wp-content/uploads/2023/08/montreal-thumbnail.jpg);
+    background-image: url(/wp-content/uploads/2023/08/montreal-thumbnail.jpg);
     background-size: cover;
 }
 
@@ -952,20 +952,20 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-1369efd .swiper-slide-inner .elementor-slide-heading {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-1369efd .swiper-slide-inner .elementor-slide-description {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-1369efd .swiper-slide-inner .elementor-slide-button {
-    color: var( --e-global-color-8310766);
-    border-color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    border-color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-f5763a5 .swiper-slide-bg {
-    background-image: url(https://wellclinics.ca/wp-content/uploads/2021/06/ExcelleMD_TerrebonneExterior.jpg);
+    background-image: url(/wp-content/uploads/2021/06/ExcelleMD_TerrebonneExterior.jpg);
     background-size: cover;
 }
 
@@ -979,20 +979,20 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-f5763a5 .swiper-slide-inner .elementor-slide-heading {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-f5763a5 .swiper-slide-inner .elementor-slide-description {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-f5763a5 .swiper-slide-inner .elementor-slide-button {
-    color: var( --e-global-color-8310766);
-    border-color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    border-color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-bbccf03 .swiper-slide-bg {
-    background-image: url(https://wellclinics.ca/wp-content/uploads/2023/03/winnipeg-thumbnail.jpg);
+    background-image: url(/wp-content/uploads/2023/03/winnipeg-thumbnail.jpg);
     background-size: cover;
 }
 
@@ -1006,20 +1006,20 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-bbccf03 .swiper-slide-inner .elementor-slide-heading {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-bbccf03 .swiper-slide-inner .elementor-slide-description {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-bbccf03 .swiper-slide-inner .elementor-slide-button {
-    color: var( --e-global-color-8310766);
-    border-color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    border-color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-76fa5aa .swiper-slide-bg {
-    background-image: url(https://wellclinics.ca/wp-content/uploads/2023/11/180910-LLR-1147-scaled.jpg);
+    background-image: url(/wp-content/uploads/2023/11/180910-LLR-1147-scaled.jpg);
     background-size: cover;
 }
 
@@ -1033,16 +1033,16 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-76fa5aa .swiper-slide-inner .elementor-slide-heading {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-76fa5aa .swiper-slide-inner .elementor-slide-description {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .elementor-repeater-item-76fa5aa .swiper-slide-inner .elementor-slide-button {
-    color: var( --e-global-color-8310766);
-    border-color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    border-color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .swiper-slide {
@@ -1094,12 +1094,12 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
-    background-color: var( --e-global-color-accent);
-    opacity: var( --e-global-color-accent);
+    background-color: var(--e-global-color-accent);
+    opacity: var(--e-global-color-accent);
 }
 
 .elementor-4647 .elementor-element.elementor-element-c4704ac .swiper-pagination-bullet-active {
-    background-color: var( --e-global-color-8310766);
+    background-color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-956680c>.elementor-container>.elementor-column>.elementor-widget-wrap {
@@ -1109,11 +1109,11 @@
 
 .elementor-4647 .elementor-element.elementor-element-956680c:not(.elementor-motion-effects-element-type-background),
 .elementor-4647 .elementor-element.elementor-element-956680c>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: var( --e-global-color-primary);
+    background-color: var(--e-global-color-primary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-956680c>.elementor-background-overlay {
-    background-image: url("https://wellclinics.ca/wp-content/uploads/2023/03/white_dots-1.png");
+    background-image: url("/wp-content/uploads/2023/03/white_dots-1.png");
     background-repeat: repeat;
     opacity: 0.1;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
@@ -1126,11 +1126,11 @@
 
 .elementor-4647 .elementor-element.elementor-element-5275eea:not(.elementor-motion-effects-element-type-background),
 .elementor-4647 .elementor-element.elementor-element-5275eea>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: var( --e-global-color-8310766);
+    background-color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-5275eea>.elementor-background-overlay {
-    background-image: url("https://wellclinics.ca/wp-content/uploads/2023/03/blue-dots-bg-right.png");
+    background-image: url("/wp-content/uploads/2023/03/blue-dots-bg-right.png");
     background-position: top right;
     background-repeat: repeat-y;
     opacity: 1;
@@ -1163,16 +1163,16 @@
     font-size: 44px;
     line-height: 62px;
     letter-spacing: -0.5px;
-    color: var( --e-global-color-primary);
+    color: var(--e-global-color-primary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-aec3502:not(.elementor-motion-effects-element-type-background),
 .elementor-4647 .elementor-element.elementor-element-aec3502>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: var( --e-global-color-8310766);
+    background-color: var(--e-global-color-8310766);
 }
 
 .elementor-4647 .elementor-element.elementor-element-aec3502>.elementor-background-overlay {
-    background-image: url("https://wellclinics.ca/wp-content/uploads/2023/03/blue-dots-bg-right.png");
+    background-image: url("/wp-content/uploads/2023/03/blue-dots-bg-right.png");
     background-position: top right;
     background-repeat: repeat-y;
     opacity: 1;
@@ -1198,7 +1198,7 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-6665a5b.elementor-arrows-yes .elementor-main-swiper {
-    width: calc( 100% - 40px);
+    width: calc(100% - 40px);
 }
 
 .elementor-4647 .elementor-element.elementor-element-6665a5b .elementor-main-swiper {
@@ -1214,11 +1214,11 @@
 
 .elementor-4647 .elementor-element.elementor-element-6665a5b .elementor-swiper-button {
     font-size: 25px;
-    color: var( --e-global-color-secondary);
+    color: var(--e-global-color-secondary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-6665a5b .elementor-swiper-button svg {
-    fill: var( --e-global-color-secondary);
+    fill: var(--e-global-color-secondary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-6665a5b.elementor-testimonial--layout-image_inline .elementor-testimonial__footer,
@@ -1239,7 +1239,7 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-aa20758.elementor-arrows-yes .elementor-main-swiper {
-    width: calc( 100% - 40px);
+    width: calc(100% - 40px);
 }
 
 .elementor-4647 .elementor-element.elementor-element-aa20758 .elementor-main-swiper {
@@ -1255,11 +1255,11 @@
 
 .elementor-4647 .elementor-element.elementor-element-aa20758 .elementor-swiper-button {
     font-size: 25px;
-    color: var( --e-global-color-secondary);
+    color: var(--e-global-color-secondary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-aa20758 .elementor-swiper-button svg {
-    fill: var( --e-global-color-secondary);
+    fill: var(--e-global-color-secondary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-aa20758.elementor-testimonial--layout-image_inline .elementor-testimonial__footer,
@@ -1313,11 +1313,11 @@
     font-size: 44px;
     line-height: 62px;
     letter-spacing: -0.5px;
-    color: var( --e-global-color-primary);
+    color: var(--e-global-color-primary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-9784080 {
-    width: var( --container-widget-width, 80%);
+    width: var(--container-widget-width, 80%);
     max-width: 80%;
     --container-widget-width: 80%;
     --container-widget-flex-grow: 0;
@@ -1327,7 +1327,7 @@
     font-style: normal;
     text-decoration: none;
     line-height: 28px;
-    color: var( --e-global-color-6b6f2ff);
+    color: var(--e-global-color-6b6f2ff);
 }
 
 .elementor-4647 .elementor-element.elementor-element-9784080>.elementor-widget-container {
@@ -1345,7 +1345,7 @@
     font-style: normal;
     text-decoration: underline;
     line-height: 28px;
-    color: var( --e-global-color-primary);
+    color: var(--e-global-color-primary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-2d863a4 {
@@ -1353,7 +1353,7 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-092a5ea.elementor-arrows-yes .elementor-main-swiper {
-    width: calc( 100% - 40px);
+    width: calc(100% - 40px);
 }
 
 .elementor-4647 .elementor-element.elementor-element-092a5ea .elementor-main-swiper {
@@ -1369,11 +1369,11 @@
 
 .elementor-4647 .elementor-element.elementor-element-092a5ea .elementor-swiper-button {
     font-size: 25px;
-    color: var( --e-global-color-secondary);
+    color: var(--e-global-color-secondary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-092a5ea .elementor-swiper-button svg {
-    fill: var( --e-global-color-secondary);
+    fill: var(--e-global-color-secondary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-092a5ea.elementor-testimonial--layout-image_inline .elementor-testimonial__footer,
@@ -1394,7 +1394,7 @@
 }
 
 .elementor-4647 .elementor-element.elementor-element-1f4e51c.elementor-arrows-yes .elementor-main-swiper {
-    width: calc( 100% - 40px);
+    width: calc(100% - 40px);
 }
 
 .elementor-4647 .elementor-element.elementor-element-1f4e51c .elementor-main-swiper {
@@ -1410,11 +1410,11 @@
 
 .elementor-4647 .elementor-element.elementor-element-1f4e51c .elementor-swiper-button {
     font-size: 25px;
-    color: var( --e-global-color-secondary);
+    color: var(--e-global-color-secondary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-1f4e51c .elementor-swiper-button svg {
-    fill: var( --e-global-color-secondary);
+    fill: var(--e-global-color-secondary);
 }
 
 .elementor-4647 .elementor-element.elementor-element-1f4e51c.elementor-testimonial--layout-image_inline .elementor-testimonial__footer,
@@ -1436,8 +1436,8 @@
 
 body.elementor-page-4647:not(.elementor-motion-effects-element-type-background),
 body.elementor-page-4647>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: var( --e-global-color-8310766);
-    background-image: url("https://wellclinics.ca/wp-content/uploads/2023/03/blue-dots-bg-right.png");
+    background-color: var(--e-global-color-8310766);
+    background-image: url("/wp-content/uploads/2023/03/blue-dots-bg-right.png");
     background-position: top right;
     background-repeat: repeat-y;
 }
@@ -1446,21 +1446,27 @@ body.elementor-page-4647>.elementor-motion-effects-container>.elementor-motion-e
     .elementor-4647 .elementor-element.elementor-element-0933fff {
         width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-cc515c9 {
         width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-d0181e2 {
         width: 40%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-b3e803c {
         width: 60%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-898b929 {
         width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4abfd64 {
         width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-ebca15b {
         width: 100%;
     }
@@ -1470,164 +1476,205 @@ body.elementor-page-4647>.elementor-motion-effects-container>.elementor-motion-e
     .elementor-4647 .elementor-element.elementor-element-604e84b {
         padding: 45px 20px 45px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-44447d8>.elementor-element-populated {
         margin: -20px 0px 0px 0px;
         --e-column-margin-right: 0px;
         --e-column-margin-left: 0px;
         padding: 0px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-a3ce7b4 .jet-animated-text__animated-text {
         font-size: 45px;
         line-height: 54px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-523750e>.elementor-widget-container {
         margin: -25px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-523750e .jet-animated-text__before-text {
         font-size: 45px;
         line-height: 54px;
         letter-spacing: -0.5px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-523750e .jet-animated-text__animated-text {
         font-size: 45px;
         line-height: 54px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-ec76a16>.elementor-widget-container {
         margin: 0px 5px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-ec76a16 .elementor-button {
         font-size: 15px;
         padding: 12px 15px 12px 15px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-ff26fdf>.elementor-widget-container {
         margin: 0px 5px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-ff26fdf .elementor-button {
         font-size: 15px;
         padding: 12px 15px 12px 15px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-d71df33 {
         width: auto;
         max-width: auto;
     }
+
     .elementor-4647 .elementor-element.elementor-element-d71df33>.elementor-widget-container {
         margin: 0px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-d71df33 .elementor-button {
         font-size: 15px;
         padding: 12px 15px 12px 15px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-6353732>.elementor-widget-container {
         padding: 10px 0px 10px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-a38e836>.elementor-element-populated {
         margin: 0px 0px 0px 0px;
         --e-column-margin-right: 0px;
         --e-column-margin-left: 0px;
         padding: 0px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-41b74e4 {
         padding: 0px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4ee86b1>.elementor-element-populated {
         margin: 0% 0% 0% 35%;
         --e-column-margin-right: 0%;
         --e-column-margin-left: 35%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-0a97bda>.elementor-element-populated {
         margin: 0px 0px 0px -50px;
         --e-column-margin-right: 0px;
         --e-column-margin-left: -50px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-1b7efa6 {
         padding: 15px 20px 15px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-51815f4>.elementor-widget-container {
         padding: 0px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-51815f4 .elementor-heading-title {
         font-size: 16px;
         line-height: 16px;
         letter-spacing: 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-e67864b>.elementor-element-populated {
         padding: 15px 0px 15px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-c7f4d8e .elementor-heading-title {
         font-size: 16px;
         line-height: 16px;
         letter-spacing: 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4258ab6 .elementor-heading-title {
         font-size: 16px;
         line-height: 16px;
         letter-spacing: 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-b202618 {
         padding: 40px 20px 0px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-3e8ac78 .elementor-heading-title {
         font-size: 37px;
         line-height: 52px;
         letter-spacing: -0.4px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-f2497e1 {
         font-size: 16px;
         line-height: 24px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-e5d3485 {
         font-size: 16px;
         line-height: 24px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-17772d6 {
         font-size: 16px;
         line-height: 24px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-7ae711b {
         padding: 0px 20px 0px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-591e6be .elementor-heading-title {
         font-size: 37px;
         line-height: 52px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4377ab9 {
         font-size: 16px;
         line-height: 24px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-108a461 .elementor-button {
         font-size: 16px;
         line-height: 24px;
         padding: 9px 030px 9px 030px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-c4704ac .swiper-slide-contents {
         max-width: 540px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-5275eea {
         padding: 40px 20px 0px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-676c6b7 .elementor-heading-title {
         font-size: 37px;
         line-height: 52px;
         letter-spacing: -0.4px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-aec3502 {
         padding: 40px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-65bbcbd {
         padding: 0px 0px 60px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-ee95074 {
         padding: 40px 20px 0px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4356b88 .elementor-heading-title {
         font-size: 37px;
         line-height: 52px;
         letter-spacing: -0.4px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-9784080 {
         font-size: 16px;
         line-height: 24px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-f5be14b {
         font-size: 16px;
         line-height: 24px;
@@ -1638,150 +1685,192 @@ body.elementor-page-4647>.elementor-motion-effects-container>.elementor-motion-e
     .elementor-4647 .elementor-element.elementor-element-44447d8.elementor-column>.elementor-widget-wrap {
         justify-content: center;
     }
+
     .elementor-4647 .elementor-element.elementor-element-a3ce7b4 .jet-animated-text {
         justify-content: center;
     }
+
     .elementor-4647 .elementor-element.elementor-element-523750e>.elementor-widget-container {
         padding: 0px 0px 5px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-523750e .jet-animated-text {
         justify-content: center;
     }
+
     .elementor-4647 .elementor-element.elementor-element-d71df33>.elementor-widget-container {
         margin: 0px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-6353732>.elementor-widget-container {
         padding: 20px 140px 0px 140px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-6353732 {
         text-align: center;
     }
+
     .elementor-4647 .elementor-element.elementor-element-1767fdc>.elementor-widget-container {
         padding: 30px 0px 35px 0px;
     }
+
     .elementor-bc-flex-widget .elementor-4647 .elementor-element.elementor-element-a38e836.elementor-column .elementor-widget-wrap {
         align-items: center;
     }
+
     .elementor-4647 .elementor-element.elementor-element-a38e836.elementor-column.elementor-element[data-element_type="column"]>.elementor-widget-wrap.elementor-element-populated {
         align-content: center;
         align-items: center;
     }
+
     .elementor-4647 .elementor-element.elementor-element-a38e836.elementor-column>.elementor-widget-wrap {
         justify-content: center;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4ee86b1>.elementor-element-populated {
         margin: 20px 0px 20px 90px;
         --e-column-margin-right: 0px;
         --e-column-margin-left: 90px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-0a97bda>.elementor-element-populated {
         margin: 0px 0px 0px 0px;
         --e-column-margin-right: 0px;
         --e-column-margin-left: 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-1b7efa6 {
         padding: 10px 20px 10px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-51815f4 .elementor-heading-title {
         letter-spacing: 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-c7f4d8e .elementor-heading-title {
         letter-spacing: 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4258ab6 .elementor-heading-title {
         letter-spacing: 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-b202618 {
         padding: 40px 20px 0px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-3e8ac78>.elementor-widget-container {
         padding: 0px 0px 15px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-3e8ac78 {
         text-align: left;
     }
+
     .elementor-4647 .elementor-element.elementor-element-f2497e1>.elementor-widget-container {
         padding: 0% 33% 0% 0%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-e5d3485 {
         width: 100%;
         max-width: 100%;
         text-align: left;
     }
+
     .elementor-4647 .elementor-element.elementor-element-e5d3485>.elementor-widget-container {
         padding: 0px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-17772d6>.elementor-widget-container {
         padding: 5px 0px 20px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-17772d6 {
         text-align: left;
     }
+
     .elementor-4647 .elementor-element.elementor-element-7ae711b {
         padding: 40px 20px 60px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-d0181e2.elementor-column>.elementor-widget-wrap {
         justify-content: flex-start;
     }
+
     .elementor-4647 .elementor-element.elementor-element-d0181e2>.elementor-element-populated {
         padding: 0px 0px 45px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-591e6be {
         text-align: left;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4377ab9 {
-        width: var( --container-widget-width, 75%);
+        width: var(--container-widget-width, 75%);
         max-width: 75%;
         --container-widget-width: 75%;
         --container-widget-flex-grow: 0;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4377ab9>.elementor-widget-container {
         padding: 0px 10px 10px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-b3e803c>.elementor-element-populated {
         padding: 0px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-c4704ac .swiper-slide-contents {
         max-width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-5275eea {
         padding: 40px 20px 0px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-676c6b7 {
-        width: var( --container-widget-width, 75%);
+        width: var(--container-widget-width, 75%);
         max-width: 75%;
         --container-widget-width: 75%;
         --container-widget-flex-grow: 0;
         text-align: left;
     }
+
     .elementor-4647 .elementor-element.elementor-element-676c6b7>.elementor-widget-container {
         padding: 0px 0px 15px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-aec3502 {
         padding: 40px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-ee95074 {
         padding: 40px 20px 0px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4356b88 {
-        width: var( --container-widget-width, 75%);
+        width: var(--container-widget-width, 75%);
         max-width: 75%;
         --container-widget-width: 75%;
         --container-widget-flex-grow: 0;
         text-align: left;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4356b88>.elementor-widget-container {
         padding: 0px 0px 15px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-9784080 {
         --container-widget-width: 80%;
         --container-widget-flex-grow: 0;
-        width: var( --container-widget-width, 80%);
+        width: var(--container-widget-width, 80%);
         max-width: 80%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-f5be14b>.elementor-widget-container {
         padding: 0px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-f5be14b {
         text-align: left;
     }
@@ -1793,225 +1882,286 @@ body.elementor-page-4647>.elementor-motion-effects-container>.elementor-motion-e
         margin-bottom: 0px;
         padding: 50px 20px 20px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-eeaa8a8 {
         padding: 0px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-a3ce7b4 .jet-animated-text {
         justify-content: center;
     }
+
     .elementor-4647 .elementor-element.elementor-element-a3ce7b4 .jet-animated-text__animated-text {
         font-size: 30px;
         line-height: 40px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-523750e>.elementor-widget-container {
         margin: -20px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-523750e .jet-animated-text {
         justify-content: center;
     }
+
     .elementor-4647 .elementor-element.elementor-element-523750e .jet-animated-text__before-text {
         font-size: 30px;
         line-height: 40px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-523750e .jet-animated-text__animated-text {
         font-size: 30px;
         line-height: 40px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-ec76a16 {
         width: 100%;
         max-width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-ec76a16>.elementor-widget-container {
         margin: 0px 0px 0px 0px;
         padding: 0px 0px 10px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-ff26fdf {
         width: 100%;
         max-width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-ff26fdf>.elementor-widget-container {
         margin: 0px 0px 10px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-d71df33 {
         width: 100%;
         max-width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-6353732>.elementor-widget-container {
         padding: 20px 0px 20px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-6353732 {
         text-align: center;
         font-size: 14px;
         line-height: 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-1767fdc>.elementor-widget-container {
         padding: 0px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-41b74e4 {
         padding: 160px 20px 0px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4f18eb0 {
         padding: 0px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-1b7efa6 {
         padding: 20px 20px 20px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-51815f4>.elementor-widget-container {
         padding: 0px 0px 20px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-51815f4 .elementor-heading-title {
         font-size: 14px;
         line-height: 14px;
         letter-spacing: 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-e67864b>.elementor-element-populated {
         border-width: 1px 0px 1px 0px;
         padding: 15px 0px 15px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-c7f4d8e>.elementor-widget-container {
         padding: 5px 0px 5px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-c7f4d8e .elementor-heading-title {
         font-size: 14px;
         line-height: 14px;
         letter-spacing: 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4258ab6>.elementor-widget-container {
         padding: 20px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4258ab6 .elementor-heading-title {
         font-size: 14px;
         line-height: 14px;
         letter-spacing: 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-b202618 {
         padding: 40px 20px 0px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-3e8ac78 .elementor-heading-title {
         font-size: 31px;
         letter-spacing: -0.5px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-f2497e1>.elementor-widget-container {
         padding: 0% 0% 0% 0%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-d2b5098>.elementor-widget-container {
         padding: 0px 10px 10px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-af5d4f3>.elementor-widget-container {
         padding: 0px 10px 10px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-ac98e9a>.elementor-widget-container {
         padding: 0px 10px 10px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-0c5ca81>.elementor-widget-container {
         padding: 0px 10px 10px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-17772d6>.elementor-widget-container {
         padding: 0px 0px 20px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-7ae711b {
         padding: 30px 20px 0px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-d0181e2>.elementor-element-populated {
         padding: 0px 0px 40px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-591e6be .elementor-heading-title {
         font-size: 31px;
         line-height: 43px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4377ab9 {
         --container-widget-width: 100%;
         --container-widget-flex-grow: 0;
-        width: var( --container-widget-width, 100%);
+        width: var(--container-widget-width, 100%);
         max-width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-108a461 {
         width: 100%;
         max-width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-108a461>.elementor-widget-container {
         padding: 0px 0px 10px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-b3e803c.elementor-column>.elementor-widget-wrap {
         justify-content: center;
     }
+
     .elementor-4647 .elementor-element.elementor-element-b3e803c>.elementor-element-populated,
     .elementor-4647 .elementor-element.elementor-element-b3e803c>.elementor-element-populated>.elementor-background-overlay,
     .elementor-4647 .elementor-element.elementor-element-b3e803c>.elementor-background-slideshow {
         border-radius: 15px 15px 15px 15px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-b3e803c>.elementor-element-populated {
         padding: 0px 0px 60px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-c4704ac>.elementor-widget-container {
         padding: 0px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-956680c {
         padding: 0px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-5275eea {
         padding: 40px 20px 0px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-676c6b7 {
         --container-widget-width: 100%;
         --container-widget-flex-grow: 0;
-        width: var( --container-widget-width, 100%);
+        width: var(--container-widget-width, 100%);
         max-width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-676c6b7 .elementor-heading-title {
         font-size: 31px;
         line-height: 43px;
         letter-spacing: -0.5px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-aec3502 {
         padding: 40px 0px 0px 0px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-6665a5b.elementor-arrows-yes .elementor-main-swiper {
-        width: calc( 100% - 40px);
+        width: calc(100% - 40px);
     }
+
     .elementor-4647 .elementor-element.elementor-element-6665a5b .elementor-main-swiper {
         width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-aa20758.elementor-arrows-yes .elementor-main-swiper {
-        width: calc( 100% - 40px);
+        width: calc(100% - 40px);
     }
+
     .elementor-4647 .elementor-element.elementor-element-aa20758 .elementor-main-swiper {
         width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-ee95074 {
         padding: 30px 20px 0px 20px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4356b88 {
         --container-widget-width: 100%;
         --container-widget-flex-grow: 0;
-        width: var( --container-widget-width, 100%);
+        width: var(--container-widget-width, 100%);
         max-width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4356b88 .elementor-heading-title {
         font-size: 37px;
         letter-spacing: -0.5px;
     }
+
     .elementor-4647 .elementor-element.elementor-element-9784080 {
         --container-widget-width: 100%;
         --container-widget-flex-grow: 0;
-        width: var( --container-widget-width, 100%);
+        width: var(--container-widget-width, 100%);
         max-width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-092a5ea.elementor-arrows-yes .elementor-main-swiper {
-        width: calc( 100% - 40px);
+        width: calc(100% - 40px);
     }
+
     .elementor-4647 .elementor-element.elementor-element-092a5ea .elementor-main-swiper {
         width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-1f4e51c.elementor-arrows-yes .elementor-main-swiper {
-        width: calc( 100% - 40px);
+        width: calc(100% - 40px);
     }
+
     .elementor-4647 .elementor-element.elementor-element-1f4e51c .elementor-main-swiper {
         width: 100%;
     }
+
     body.elementor-page-4647:not(.elementor-motion-effects-element-type-background),
     body.elementor-page-4647>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-        background-image: url("https://wellclinics.ca/wp-content/uploads/2023/03/blue-dots-bg-right-mobile.png");
+        background-image: url("/wp-content/uploads/2023/03/blue-dots-bg-right-mobile.png");
     }
 }
 
@@ -2019,6 +2169,7 @@ body.elementor-page-4647>.elementor-motion-effects-container>.elementor-motion-e
     .elementor-4647 .elementor-element.elementor-element-44447d8 {
         width: 60%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-a38e836 {
         width: 55%;
     }
@@ -2028,27 +2179,35 @@ body.elementor-page-4647>.elementor-motion-effects-container>.elementor-motion-e
     .elementor-4647 .elementor-element.elementor-element-44447d8 {
         width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-a38e836 {
         width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-4ee86b1 {
         width: 27%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-0a97bda {
         width: 25%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-ebdce07 {
         width: 30%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-e67864b {
         width: 40%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-37eb622 {
         width: 30%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-d0181e2 {
         width: 100%;
     }
+
     .elementor-4647 .elementor-element.elementor-element-b3e803c {
         width: 100%;
     }
@@ -2145,6 +2304,7 @@ div.asp_m.asp_m_1 .probox .proinput input.orig {
         width: 220px !important;
         height: 220px !important;
     }
+
     .elementor-4647 .elementor-element.elementor-element-920f633 {
         width: 220px !important;
         height: 220px !important;
@@ -2467,6 +2627,7 @@ div.asp_m.ajaxsearchpro .probox .proloading svg {
         width: 420px !important;
         margin-left: 21%;
     }
+
     div#wpdreams_asp_results_1,
     #ajaxsearchprores1_1 {
         width: 420px !important;
