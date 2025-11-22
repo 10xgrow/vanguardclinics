@@ -1,8 +1,5 @@
----
+version: 2
 deployment:
   tasks:
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp -R wp-content $DEPLOYPATH
-    - /bin/cp -R wp-includes $DEPLOYPATH
-    - /bin/cp -R contact-us $DEPLOYPATH
-    - /bin/cp -R services $DEPLOYPATH
+    - export CPANEL_DOCROOT="${DEPLOYPATH}"
+    - /usr/bin/rsync -av --exclude='.git' --exclude='.cpanel.yml' --exclude='.DS_Store' . $CPANEL_DOCROOT
