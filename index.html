@@ -736,6 +736,49 @@
             cursor: pointer;
             z-index: 10;
         }
+
+        /* Fix for Find Types of Care card slider */
+        .elementor-element-ddc3f85 .swiper-wrapper {
+            display: flex !important;
+        }
+
+        .elementor-element-ddc3f85 .swiper-slide {
+            flex-shrink: 0 !important;
+            width: calc(25% - 15px) !important;
+            /* 4 slides on desktop with 20px gap */
+            margin-right: 20px !important;
+        }
+
+        .elementor-element-ddc3f85 .swiper-slide:last-child {
+            margin-right: 0 !important;
+        }
+
+        /* Tablet view - 3 slides */
+        @media (max-width: 1024px) {
+            .elementor-element-ddc3f85 .swiper-slide {
+                width: calc(33.333% - 13.33px) !important;
+                /* 3 slides on tablet */
+            }
+        }
+
+        /* Mobile view - 1 slide */
+        @media (max-width: 767px) {
+            .elementor-element-ddc3f85 .swiper-slide {
+                width: 100% !important;
+                /* 1 slide on mobile */
+                margin-right: 0 !important;
+            }
+        }
+
+        /* Ensure the slider container doesn't overflow */
+        .elementor-element-ddc3f85 .elementor-swiper {
+            overflow: hidden !important;
+        }
+
+        /* Ensure proper height for cards */
+        .elementor-element-ddc3f85 .hometile-v2 {
+            height: 100% !important;
+        }
     </style>
     <script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
     <script src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
@@ -11961,8 +12004,8 @@
                                                         data-id="ccf13ab" data-element_type="widget"
                                                         data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
-                                                            <p><a href="/" target="_blank"
-                                                                    rel="noopener">Visit Vanguard Clinic Corporate</a>
+                                                            <p><a href="/" target="_blank" rel="noopener">Visit Vanguard
+                                                                    Clinic Corporate</a>
                                                             </p>
                                                             <p><a href="/opportunities/" target="_blank"
                                                                     rel="noopener">Clinic Career
