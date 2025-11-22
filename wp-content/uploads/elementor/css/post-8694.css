@@ -1,0 +1,101 @@
+.elementor-8694 .elementor-element.elementor-element-16a69157,
+.elementor-8694 .elementor-element.elementor-element-16a69157>.elementor-background-overlay {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.elementor-8694 .elementor-element.elementor-element-16a69157 {
+    box-shadow: 15px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-8694 .elementor-element.elementor-element-65ee12b2>.elementor-element-populated {
+    border-style: none;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-8694 .elementor-element.elementor-element-65ee12b2>.elementor-element-populated,
+.elementor-8694 .elementor-element.elementor-element-65ee12b2>.elementor-element-populated>.elementor-background-overlay,
+.elementor-8694 .elementor-element.elementor-element-65ee12b2>.elementor-background-slideshow {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.elementor-8694 .elementor-element.elementor-element-65ee12b2>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-8694 .elementor-element.elementor-element-b8153c9>.elementor-widget-container {
+    padding: 15px 20px 0px 20px;
+}
+
+.elementor-8694 .elementor-element.elementor-element-aad698f>.elementor-widget-container {
+    padding: 0px 20px 0px 20px;
+}
+
+/* Start custom CSS for column, class: .elementor-element-65ee12b2 */
+
+.elementor-8694 .elementor-element.elementor-element-65ee12b2 {
+    height: 400px !important;
+}
+
+.stc-bg {
+    background-color: {
+            {
+            TERM_META: services:services_color
+        }
+    }
+    ;
+}
+
+/* End custom CSS */
+
+/* Start custom CSS for section, class: .elementor-element-16a69157 */
+
+/*
+.elementor-8694 .elementor-element.elementor-element-16a69157 {
+ 
+    min-width: 275px!important;
+    max-width: 275px!important;
+    
+}
+
+
+@media only screen and (max-width: 1200px) and (min-width: 769px)  {
+    .elementor-8694 .elementor-element.elementor-element-16a69157 {
+    min-width: 315px!important;
+}
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 768px)  {
+    .elementor-8694 .elementor-element.elementor-element-16a69157 {
+    min-width: 355px!important;
+}
+
+}
+
+
+@media only screen and (max-width: 767px){
+    .elementor-8694 .elementor-element.elementor-element-16a69157{
+    min-width:100vw!important;        
+    }
+
+
+}
+
+
+.elementor-8694 .elementor-element.elementor-element-16a69157 {
+    width: 100%!important;
+}
+*/
+
+.elementor-8694 .elementor-element.elementor-element-16a69157 {
+    flex-grow: 0 !important;
+}
+
+/* End custom CSS */
