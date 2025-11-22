@@ -668,7 +668,7 @@
     <link rel='stylesheet' id='jet-animated-text-skin-css'
         href='/wp-content/plugins/jet-elements/assets/css/skin/jet-animated-text.css?ver=2.7.9.1' media='all' />
     <link rel='stylesheet' id='swiper-css'
-        href='/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' />
+        href='https://cdn.jsdelivr.net/npm/swiper@8.4.5/swiper-bundle.min.css' media='all' />
     <link rel='stylesheet' id='e-swiper-css'
         href='/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.33.1' media='all' />
     <link rel='stylesheet' id='widget-image-carousel-css'
@@ -778,6 +778,39 @@
         /* Ensure proper height for cards */
         .elementor-element-ddc3f85 .hometile-v2 {
             height: 100% !important;
+        }
+
+        /* Fix hero carousels visibility and horizontal scrolling */
+        .elementor-element-920f633 .elementor-image-carousel-wrapper.swiper,
+        .elementor-element-39c7c94 .elementor-image-carousel-wrapper.swiper {
+            overflow: hidden !important;
+            width: 100% !important;
+            height: auto !important;
+        }
+
+        .elementor-element-920f633 .swiper-wrapper,
+        .elementor-element-39c7c94 .swiper-wrapper {
+            display: flex !important;
+            flex-direction: row !important;
+            transform: translate3d(0, 0, 0) !important;
+        }
+
+        .elementor-element-920f633 .swiper-slide,
+        .elementor-element-39c7c94 .swiper-slide {
+            width: 100% !important;
+            flex-shrink: 0 !important;
+            display: block !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+        }
+
+        .elementor-element-920f633 .swiper-slide img,
+        .elementor-element-39c7c94 .swiper-slide img {
+            width: 100% !important;
+            height: auto !important;
+            display: block !important;
+            opacity: 1 !important;
+            visibility: visible !important;
         }
     </style>
     <script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
@@ -12406,6 +12439,7 @@
         id="elementor-webpack-runtime-js"></script>
     <script src="/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.33.1"
         id="elementor-frontend-modules-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8.4.5/swiper-bundle.min.js" id="swiper-js"></script>
     <script id="elementor-frontend-js-before">
         var elementorFrontendConfig = {
             "environmentMode": {
@@ -12540,7 +12574,6 @@
         id="elementor-frontend-js"></script>
     <script src="/wp-content/plugins/jet-elements/assets/js/lib/anime-js/anime.min.js?ver=2.2.0"
         id="jet-anime-js-js"></script>
-    <script src="/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5" id="swiper-js"></script>
     <script
         src="/wp-content/plugins/dynamic-content-for-elementor/assets/node/infinite-scroll/infinite-scroll.pkgd.min.js?ver=3.3.21"
         id="dce-infinitescroll-js"></script>
@@ -13450,6 +13483,239 @@
         };
     </script>
     <script async type='text/javascript' src='/wp-content/cache/asp/asp-f3a14508.min.js' id='asp-f3a14508-js'></script>
+    <script>
+        // Initialize Swiper for Find Types of Care slider
+        (function() {
+            function initSlider() {
+                var sliderContainer = document.querySelector('.elementor-element-ddc3f85 .elementor-slides-wrapper.swiper');
+                if (sliderContainer && typeof Swiper !== 'undefined') {
+                    // Check if already initialized
+                    if (!sliderContainer.swiper) {
+                        var settings = {
+                            slidesPerView: 4,
+                            spaceBetween: 20,
+                            loop: true,
+                            autoplay: {
+                                delay: 2000,
+                                disableOnInteraction: false,
+                                pauseOnMouseEnter: true
+                            },
+                            speed: 500,
+                            breakpoints: {
+                                1024: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 20
+                                },
+                                768: {
+                                    slidesPerView: 1,
+                                    spaceBetween: 20
+                                }
+                            }
+                        };
+                        
+                        // Add navigation if arrows exist
+                        var prevBtn = document.querySelector('.elementor-element-ddc3f85 .elementor-swiper-button-prev');
+                        var nextBtn = document.querySelector('.elementor-element-ddc3f85 .elementor-swiper-button-next');
+                        if (prevBtn && nextBtn) {
+                            settings.navigation = {
+                                nextEl: nextBtn,
+                                prevEl: prevBtn
+                            };
+                        }
+                        
+                        try {
+                            var swiperInstance = new Swiper(sliderContainer, settings);
+                            // Ensure autoplay starts
+                            if (swiperInstance.autoplay) {
+                                swiperInstance.autoplay.start();
+                            }
+                        } catch(e) {
+                            console.log('Swiper initialization:', e);
+                        }
+                    }
+                }
+            }
+            
+            // Try multiple initialization methods
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', function() {
+                    setTimeout(initSlider, 1000);
+                });
+            } else {
+                setTimeout(initSlider, 1000);
+            }
+            
+            // Also try after Elementor is ready
+            if (typeof elementorFrontend !== 'undefined') {
+                elementorFrontend.hooks.addAction('frontend/element_ready/global', function() {
+                    setTimeout(initSlider, 500);
+                });
+            }
+            
+            // Fallback: try after window load
+            window.addEventListener('load', function() {
+                setTimeout(initSlider, 500);
+            });
+        })();
+        
+        // Initialize Stats Carousel (About us section)
+        (function() {
+            function initStatsCarousel() {
+                var statsCarousel = document.querySelector('.elementor-element-092a5ea .elementor-main-swiper.swiper');
+                if (statsCarousel && typeof Swiper !== 'undefined') {
+                    // Check if already initialized
+                    if (!statsCarousel.swiper) {
+                        var prevBtn = statsCarousel.querySelector('.elementor-swiper-button-prev');
+                        var nextBtn = statsCarousel.querySelector('.elementor-swiper-button-next');
+                        
+                        var settings = {
+                            slidesPerView: 5,
+                            spaceBetween: 20,
+                            loop: true,
+                            speed: 500,
+                            breakpoints: {
+                                1200: {
+                                    slidesPerView: 4,
+                                    spaceBetween: 20
+                                },
+                                768: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 20
+                                },
+                                480: {
+                                    slidesPerView: 1,
+                                    spaceBetween: 20
+                                }
+                            }
+                        };
+                        
+                        if (prevBtn && nextBtn) {
+                            settings.navigation = {
+                                nextEl: nextBtn,
+                                prevEl: prevBtn
+                            };
+                        }
+                        
+                        try {
+                            new Swiper(statsCarousel, settings);
+                        } catch(e) {
+                            console.log('Stats carousel initialization:', e);
+                        }
+                    }
+                }
+            }
+            
+            // Try multiple initialization methods
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', function() {
+                    setTimeout(initStatsCarousel, 1000);
+                });
+            } else {
+                setTimeout(initStatsCarousel, 1000);
+            }
+            
+            // Also try after Elementor is ready
+            if (typeof elementorFrontend !== 'undefined') {
+                elementorFrontend.hooks.addAction('frontend/element_ready/global', function() {
+                    setTimeout(initStatsCarousel, 500);
+                });
+            }
+            
+            // Fallback: try after window load
+            window.addEventListener('load', function() {
+                setTimeout(initStatsCarousel, 500);
+            });
+        })();
+        
+        // Fix Hero Image Carousels - Ensure they're visible and working
+        (function() {
+            function fixHeroCarousels() {
+                // Small carousel (920f633)
+                var smallCarousel = document.querySelector('.elementor-element-920f633 .elementor-image-carousel-wrapper.swiper');
+                if (smallCarousel && typeof Swiper !== 'undefined') {
+                    setTimeout(function() {
+                        if (smallCarousel.swiper) {
+                            // Fix the swiper instance
+                            var swiper = smallCarousel.swiper;
+                            // Ensure it's horizontal
+                            swiper.params.direction = 'horizontal';
+                            swiper.params.slidesPerView = 1;
+                            swiper.params.loop = true;
+                            // Fix autoplay
+                            if (!swiper.params.autoplay) {
+                                swiper.params.autoplay = {
+                                    delay: 3200,
+                                    disableOnInteraction: false,
+                                    pauseOnMouseEnter: false
+                                };
+                            }
+                            // Update and restart
+                            swiper.update();
+                            if (swiper.autoplay) {
+                                swiper.autoplay.stop();
+                                swiper.autoplay.start();
+                            }
+                            // Force update slides position
+                            swiper.slideTo(0, 0);
+                        }
+                    }, 2500);
+                }
+                
+                // Big carousel (39c7c94)
+                var bigCarousel = document.querySelector('.elementor-element-39c7c94 .elementor-image-carousel-wrapper.swiper');
+                if (bigCarousel && typeof Swiper !== 'undefined') {
+                    setTimeout(function() {
+                        if (bigCarousel.swiper) {
+                            // Fix the swiper instance
+                            var swiper = bigCarousel.swiper;
+                            // Ensure it's horizontal
+                            swiper.params.direction = 'horizontal';
+                            swiper.params.slidesPerView = 1;
+                            swiper.params.loop = true;
+                            // Fix autoplay
+                            if (!swiper.params.autoplay) {
+                                swiper.params.autoplay = {
+                                    delay: 3200,
+                                    disableOnInteraction: false,
+                                    pauseOnMouseEnter: false
+                                };
+                            }
+                            // Update and restart
+                            swiper.update();
+                            if (swiper.autoplay) {
+                                swiper.autoplay.stop();
+                                swiper.autoplay.start();
+                            }
+                            // Force update slides position
+                            swiper.slideTo(0, 0);
+                        }
+                    }, 2500);
+                }
+            }
+            
+            // Wait for Elementor to initialize first
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', function() {
+                    setTimeout(fixHeroCarousels, 1500);
+                });
+            } else {
+                setTimeout(fixHeroCarousels, 1500);
+            }
+            
+            // Also try after Elementor is ready
+            if (typeof elementorFrontend !== 'undefined') {
+                elementorFrontend.hooks.addAction('frontend/element_ready/global', function() {
+                    setTimeout(fixHeroCarousels, 2000);
+                });
+            }
+            
+            // Fallback: try after window load
+            window.addEventListener('load', function() {
+                setTimeout(fixHeroCarousels, 2500);
+            });
+        })();
+        
+    </script>
 </body>
 
 </html>
