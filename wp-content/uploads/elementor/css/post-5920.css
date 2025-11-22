@@ -4,7 +4,9 @@
 }
 
 .elementor-5920 .elementor-element.elementor-element-ea4aaff>.elementor-container {
-    min-height: 125px;
+    min-height: 85px;
+    display: flex;
+    align-items: center;
 }
 
 .elementor-5920 .elementor-element.elementor-element-ea4aaff {
