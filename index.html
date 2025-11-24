@@ -2231,6 +2231,98 @@
             src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVc.ttf) format('truetype');
         }
     </style>
+
+    <style>
+        /* Hero Search Styles */
+        .vc-hero-search-wrapper {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .vc-hero-search-input-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+            background: #fff;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 5px 20px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .vc-hero-search-input-container:focus-within {
+            border-color: #00d084;
+            box-shadow: 0 4px 20px rgba(0,208,132,0.2);
+        }
+
+        .vc-hero-search-icon {
+            color: #888;
+            margin-right: 10px;
+            font-size: 18px;
+        }
+
+        #vc-hero-service-search {
+            border: none;
+            outline: none;
+            width: 100%;
+            padding: 12px 0;
+            font-size: 16px;
+            background: transparent;
+            color: #333;
+        }
+
+        .vc-hero-search-results {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            margin-top: 10px;
+            z-index: 1000;
+            max-height: 300px;
+            overflow-y: auto;
+            display: none;
+            border: 1px solid #eee;
+            text-align: left;
+        }
+
+        .vc-hero-search-results.active {
+            display: block;
+        }
+
+        .vc-search-result-item {
+            padding: 12px 20px;
+            cursor: pointer;
+            transition: background 0.2s;
+            border-bottom: 1px solid #f5f5f5;
+            color: #333;
+            font-size: 15px;
+            display: block;
+            text-decoration: none;
+        }
+
+        .vc-search-result-item:last-child {
+            border-bottom: none;
+        }
+
+        .vc-search-result-item:hover {
+            background-color: #f9f9f9;
+            color: #00d084;
+            text-decoration: none;
+        }
+
+        .vc-no-results {
+            padding: 15px;
+            text-align: center;
+            color: #888;
+            font-style: italic;
+        }
+    </style>
+
 </head>
 
 <body
@@ -2661,134 +2753,14 @@
                                                 data-id="1767fdc" data-element_type="widget"
                                                 data-widget_type="shortcode.default">
                                                 <div class="elementor-widget-container">
-                                                    <div class="elementor-shortcode">
-                                                        <div class='asp_shortcodes_container'>
-                                                            <div style='flex-basis: 99%;' class='asp_shortcode_column'>
-                                                                <div class="asp_w_container asp_w_container_1 asp_w_container_1_1"
-                                                                    data-id="1" data-instance="1">
-                                                                    <div class='asp_w asp_m asp_m_1 asp_m_1_1 wpdreams_asp_sc wpdreams_asp_sc-1 ajaxsearchpro asp_main_container asp_non_compact'
-                                                                        data-id="1" data-name="Homepage search"
-                                                                        data-instance="1" id='ajaxsearchpro1_1'>
-                                                                        <div class="probox">
-                                                                            <div class='prosettings'
-                                                                                style='display:none;' data-opened=0>
-                                                                                <div class='innericon'><svg
-                                                                                        xmlns="http://www.w3.org/2000/svg"
-                                                                                        width="22" height="22"
-                                                                                        viewBox="0 0 512 512">
-                                                                                        <polygon
-                                                                                            transform="rotate(90 256 256)"
-                                                                                            points="142.332,104.886 197.48,50 402.5,256 197.48,462 142.332,407.113 292.727,256" />
-                                                                                    </svg></div>
-                                                                            </div>
-                                                                            <div class='proinput'>
-                                                                                <form role="search" action='#'
-                                                                                    autocomplete="off"
-                                                                                    aria-label="Search form"><input
-                                                                                        type='search' class='orig'
-                                                                                        placeholder='Search for services...'
-                                                                                        name='phrase' value=''
-                                                                                        aria-label="Search input"
-                                                                                        autocomplete="off" /><input
-                                                                                        type='text' class='autocomplete'
-                                                                                        name='phrase' value=''
-                                                                                        aria-label="Search autocomplete input"
-                                                                                        aria-hidden="true" tabindex="-1"
-                                                                                        autocomplete="off" disabled />
-                                                                                </form>
-                                                                            </div><button class='promagnifier'
-                                                                                aria-label="Search magnifier button"><span
-                                                                                    class='asp_text_button hiddend'> Go
-                                                                                </span><span class='innericon'><svg
-                                                                                        xmlns="http://www.w3.org/2000/svg"
-                                                                                        width="22" height="22"
-                                                                                        viewBox="0 0 512 512">
-                                                                                        <path
-                                                                                            d="M460.355 421.59l-106.51-106.512c20.04-27.553 31.884-61.437 31.884-98.037C385.73 124.935 310.792 50 218.685 50c-92.106 0-167.04 74.934-167.04 167.04 0 92.107 74.935 167.042 167.04 167.042 34.912 0 67.352-10.773 94.184-29.158L419.945 462l40.41-40.41zM100.63 217.04c0-65.095 52.96-118.055 118.056-118.055 65.098 0 118.057 52.96 118.057 118.056 0 65.097-52.96 118.057-118.057 118.057-65.096 0-118.055-52.96-118.055-118.056z" />
-                                                                                    </svg></span><span
-                                                                                    class="asp_clear"></span></button>
-                                                                            <div class='proloading'>
-                                                                                <div class="asp_loader">
-                                                                                    <div
-                                                                                        class="asp_loader-inner asp_ball-scale">
-                                                                                        <div></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class='proclose'><svg version="1.1"
-                                                                                    xmlns="http://www.w3.org/2000/svg"
-                                                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                    x="0px" y="0px" width="512px"
-                                                                                    height="512px" viewBox="0 0 512 512"
-                                                                                    enable-background="new 0 0 512 512"
-                                                                                    xml:space="preserve">
-                                                                                    <polygon
-                                                                                        points="438.393,374.595 319.757,255.977 438.378,137.348 374.595,73.607 255.995,192.225 137.375,73.622 73.607,137.352 192.246,255.983 73.622,374.625 137.352,438.393 256.002,319.734 374.652,438.378 " />
-                                                                                </svg></div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class='asp_data_container'
-                                                                        style="display:none !important;">
-                                                                        <div class="asp_init_data"
-                                                                            style="display:none !important;"
-                                                                            id="asp_init_id_1_1" data-asp-id="1"
-                                                                            data-asp-instance="1"
-                                                                            data-aspdata="eyJhbmltYXRpb25zIjp7InBjIjp7InNldHRpbmdzIjp7ImFuaW0iOiJmYWRlZHJvcCIsImR1ciI6MzAwfSwicmVzdWx0cyI6eyJhbmltIjoiZmFkZWRyb3AiLCJkdXIiOjMwMH0sIml0ZW1zIjoiZmFkZUluRG93biJ9LCJtb2IiOnsic2V0dGluZ3MiOnsiYW5pbSI6ImZhZGVkcm9wIiwiZHVyIjoiMzAwIn0sInJlc3VsdHMiOnsiYW5pbSI6ImZhZGVkcm9wIiwiZHVyIjoiMzAwIn0sIml0ZW1zIjoidm9pZGFuaW0ifX0sImF1dG9jb21wbGV0ZSI6eyJlbmFibGVkIjoxLCJ0cmlnZ2VyX2NoYXJjb3VudCI6MiwiZ29vZ2xlT25seSI6MCwibGFuZyI6ImVuIiwibW9iaWxlIjoxfSwiYXV0b3AiOnsic3RhdGUiOiJkaXNhYmxlZCIsInBocmFzZSI6IiIsImNvdW50IjoxMH0sImNoYXJjb3VudCI6MCwiY2xvc2VPbkRvY0NsaWNrIjoxLCJjb21wYWN0Ijp7ImVuYWJsZWQiOjAsImZvY3VzIjoxLCJ3aWR0aCI6IjEwMCUiLCJ3aWR0aF90YWJsZXQiOiI0ODBweCIsIndpZHRoX3Bob25lIjoiMzIwcHgiLCJjbG9zZU9uTWFnbmlmaWVyIjoxLCJjbG9zZU9uRG9jdW1lbnQiOjAsInBvc2l0aW9uIjoic3RhdGljIiwib3ZlcmxheSI6MH0sImNwdEFyY2hpdmUiOnsidXNlQWpheCI6MCwic2VsZWN0b3IiOiIjbWFpbiIsInVybCI6IiJ9LCJkZXRlY3RWaXNpYmlsaXR5IjowLCJkaXZpIjp7ImJvZHljb21tZXJjZSI6MH0sImZvY3VzT25QYWdlbG9hZCI6MCwiZnNzX2xheW91dCI6ImZsZXgiLCJoaWdobGlnaHQiOjAsImhpZ2hsaWdodFdob2xld29yZHMiOjEsImhvbWV1cmwiOiJodHRwczpcL1wvd2VsbGNsaW5pY3MuY2FcLyIsImlzX3Jlc3VsdHNfcGFnZSI6MCwiaXNvdG9waWMiOnsiaXRlbVdpZHRoIjoiMjAwcHgiLCJpdGVtV2lkdGhUYWJsZXQiOiIyMDBweCIsIml0ZW1XaWR0aFBob25lIjoiMjAwcHgiLCJpdGVtSGVpZ2h0IjoiMjAwcHgiLCJpdGVtSGVpZ2h0VGFibGV0IjoiMjAwcHgiLCJpdGVtSGVpZ2h0UGhvbmUiOiIyMDBweCIsInBhZ2luYXRpb24iOjEsInJvd3MiOjIsImd1dHRlciI6NSwic2hvd092ZXJsYXkiOjEsImJsdXJPdmVybGF5IjoxLCJoaWRlQ29udGVudCI6MX0sIml0ZW1zY291bnQiOjQsImxvYWRlckxvY2F0aW9uIjoiYXV0byIsIm1vYmlsZSI6eyJ0cmlnZ2VyX29uX3R5cGUiOjEsImNsaWNrX2FjdGlvbiI6Im5vdGhpbmciLCJyZXR1cm5fYWN0aW9uIjoibm90aGluZyIsImNsaWNrX2FjdGlvbl9sb2NhdGlvbiI6InNhbWUiLCJyZXR1cm5fYWN0aW9uX2xvY2F0aW9uIjoic2FtZSIsInJlZGlyZWN0X3VybCI6IlwvdGVzdC1tYXBcLz9zZXJ2aWNlPXtwaHJhc2V9IiwiZWxlbWVudG9yX3VybCI6Imh0dHBzOlwvXC93ZWxsY2xpbmljcy5jYVwvP2FzcF9scz17cGhyYXNlfSIsIm1lbnVfc2VsZWN0b3IiOiIjbWVudS10b2dnbGUiLCJoaWRlX2tleWJvYXJkIjowLCJmb3JjZV9yZXNfaG92ZXIiOjAsImZvcmNlX3NldHRfaG92ZXIiOjAsImZvcmNlX3NldHRfc3RhdGUiOiJub25lIn0sIm92ZXJyaWRlX21ldGhvZCI6ImdldCIsIm92ZXJyaWRld3BkZWZhdWx0IjoxLCJwcmVzY29udGFpbmVyaGVpZ2h0IjoiNDAwcHgiLCJwcmV2ZW50Qm9keVNjcm9sbCI6MCwicHJldmVudEV2ZW50cyI6MCwicmIiOnsiYWN0aW9uIjoibm90aGluZyJ9LCJyZXNQYWdlIjp7InVzZUFqYXgiOjAsInNlbGVjdG9yIjoiI21haW4iLCJ0cmlnZ2VyX3R5cGUiOjEsInRyaWdnZXJfZmFjZXQiOjEsInRyaWdnZXJfbWFnbmlmaWVyIjowLCJ0cmlnZ2VyX3JldHVybiI6MH0sInJlc3VsdHMiOnsid2lkdGgiOiJhdXRvIiwid2lkdGhfdGFibGV0IjoiYXV0byIsIndpZHRoX3Bob25lIjoiYXV0byJ9LCJyZXN1bHRzU25hcFRvIjoibGVmdCIsInJlc3VsdHNwb3NpdGlvbiI6ImhvdmVyIiwicmVzdWx0c3R5cGUiOiJ2ZXJ0aWNhbCIsInNiIjp7InJlZGlyZWN0X2FjdGlvbiI6ImFqYXhfc2VhcmNoIiwicmVkaXJlY3RfbG9jYXRpb24iOiJzYW1lIiwicmVkaXJlY3RfdXJsIjoiP3M9e3BocmFzZX0iLCJlbGVtZW50b3JfdXJsIjoiaHR0cHM6XC9cL3dlbGxjbGluaWNzLmNhXC8/YXNwX2xzPXtwaHJhc2V9In0sInNjcm9sbEJhciI6eyJob3Jpem9udGFsIjp7ImVuYWJsZWQiOjF9fSwic2Nyb2xsVG9SZXN1bHRzIjp7ImVuYWJsZWQiOjAsIm9mZnNldCI6MH0sInNlbGVjdDIiOnsibm9yZXMiOiJObyByZXN1bHRzIG1hdGNoIn0sInNldHRpbmdzIjp7InVuc2VsZWN0Q2hpbGRyZW4iOjEsImhpZGVDaGlsZHJlbiI6MH0sInNldHRpbmdzSGlkZU9uUmVzIjowLCJzZXR0aW5nc2ltYWdlcG9zIjoibGVmdCIsInNldHRpbmdzVmlzaWJsZSI6MCwic2hvd19tb3JlIjp7ImVuYWJsZWQiOjAsInVybCI6Ij9zPXtwaHJhc2V9IiwiZWxlbWVudG9yX3VybCI6Imh0dHBzOlwvXC93ZWxsY2xpbmljcy5jYVwvP2FzcF9scz17cGhyYXNlfSIsImFjdGlvbiI6ImFqYXgiLCJsb2NhdGlvbiI6InNhbWUiLCJpbmZpbml0ZSI6MX0sInNpbmdsZUhpZ2hsaWdodCI6MCwic3RhdGlzdGljcyI6MSwidGF4QXJjaGl2ZSI6eyJ1c2VBamF4IjowLCJzZWxlY3RvciI6IiNtYWluIiwidXJsIjoiIn0sInRyaWdnZXIiOnsiZGVsYXkiOjMwMCwiYXV0b2NvbXBsZXRlX2RlbGF5IjozMTAsInVwZGF0ZV9ocmVmIjoxLCJmYWNldCI6MSwidHlwZSI6MSwiY2xpY2siOiJub3RoaW5nIiwiY2xpY2tfbG9jYXRpb24iOiJzYW1lIiwicmV0dXJuIjoibm90aGluZyIsInJldHVybl9sb2NhdGlvbiI6InNhbWUiLCJyZWRpcmVjdF91cmwiOiJcL3Rlc3QtbWFwXC8/c2VydmljZT17cGhyYXNlfSIsImVsZW1lbnRvcl91cmwiOiJodHRwczpcL1wvd2VsbGNsaW5pY3MuY2FcLz9hc3BfbHM9e3BocmFzZX0iLCJtaW5Xb3JkTGVuZ3RoIjozfSwid29vU2hvcCI6eyJ1c2VBamF4IjowLCJzZWxlY3RvciI6IiNtYWluIiwidXJsIjoiIn19">
-                                                                        </div>
-                                                                        <div class='asp_hidden_data'
-                                                                            style="display:none !important;">
-                                                                            <div class='asp_item_overlay'>
-                                                                                <div class='asp_item_inner'><svg
-                                                                                        xmlns="http://www.w3.org/2000/svg"
-                                                                                        width="22" height="22"
-                                                                                        viewBox="0 0 512 512">
-                                                                                        <path
-                                                                                            d="M448.225 394.243l-85.387-85.385c16.55-26.08 26.146-56.986 26.146-90.094 0-92.99-75.652-168.64-168.643-168.64-92.988 0-168.64 75.65-168.64 168.64s75.65 168.64 168.64 168.64c31.466 0 60.94-8.67 86.176-23.734l86.14 86.142c36.755 36.754 92.355-18.783 55.57-55.57zm-344.233-175.48c0-64.155 52.192-116.35 116.35-116.35s116.353 52.194 116.353 116.35S284.5 335.117 220.342 335.117s-116.35-52.196-116.35-116.352zm34.463-30.26c34.057-78.9 148.668-69.75 170.248 12.863-43.482-51.037-119.984-56.532-170.248-12.862z" />
-                                                                                    </svg></div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div id='__original__ajaxsearchprores1_1'
-                                                                        class='asp_w asp_r asp_r_1 asp_r_1_1 vertical ajaxsearchpro wpdreams_asp_sc wpdreams_asp_sc-1'
-                                                                        data-id="1" data-instance="1">
-                                                                        <div class="results">
-                                                                            <div class="resdrg"></div>
-                                                                        </div>
-                                                                        <div class="asp_res_loader hiddend">
-                                                                            <div class="asp_loader">
-                                                                                <div
-                                                                                    class="asp_loader-inner asp_ball-scale">
-                                                                                    <div></div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div id='__original__ajaxsearchprobsettings1_1'
-                                                                        class="asp_w asp_ss asp_ss_1 asp_sb asp_sb_1 asp_sb_1_1 asp_sb wpdreams_asp_sc wpdreams_asp_sc-1 ajaxsearchpro searchsettings"
-                                                                        data-id="1" data-instance="1">
-                                                                        <form name='options' class="asp-fss-flex"
-                                                                            aria-label="Search settings form"
-                                                                            autocomplete='off'><input type="hidden"
-                                                                                name="current_page_id"
-                                                                                value="4892"><input type='hidden'
-                                                                                name='qtranslate_lang'
-                                                                                value='0' /><input type="hidden"
-                                                                                name="filters_changed" value="0"><input
-                                                                                type="hidden" name="filters_initial"
-                                                                                value="1">
-                                                                            <div style="clear:both;"></div>
-                                                                        </form>
-                                                                    </div>
-                                                                </div>
-                                                                <div style='height: 10px;'></div>
-                                                                <div id='wpdreams_asp_settings_1'></div>
-                                                            </div>
-                                                            <div style='flex-basis: 99%;' class='asp_shortcode_column'>
-                                                                <div id='wpdreams_asp_results_1'></div>
-                                                            </div>
+                                                    <div class="vc-hero-search-wrapper">
+                                                        <div class="vc-hero-search-input-container">
+                                                            <i class="fas fa-search vc-hero-search-icon"></i>
+                                                            <input type="text" id="vc-hero-service-search" placeholder="Search for services (e.g. Family Practice, Walk-In)..." autocomplete="off">
                                                         </div>
+                                                        <div id="vc-hero-search-results" class="vc-hero-search-results"></div>
                                                     </div>
-                                                </div>
+            </div>
                                             </div>
                                         </div>
                                     </div>
@@ -11197,6 +11169,63 @@
         })();
 
     </script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const services = [{"name": "Acupuncture", "url": "/services/acupuncture/"}, {"name": "Aesthetics", "url": "/services/aesthetics/"}, {"name": "Allied Health", "url": "/services/allied-health/"}, {"name": "Attention Difficulties ADHD", "url": "/services/attention-difficulties-adhd/"}, {"name": "Behavioural Issues and Development Delay", "url": "/services/behavioural-issues-development-delay/"}, {"name": "Bone Density", "url": "/services/bone-density/"}, {"name": "Cardiology", "url": "/services/cardiology/"}, {"name": "Childrens Urgent Care", "url": "/services/childrens-urgent-care/"}, {"name": "Chiropractic", "url": "/services/chiropractic/"}, {"name": "Custom Orthotics", "url": "/services/custom-orthotics/"}, {"name": "Day Surgery", "url": "/services/day-surgery/"}, {"name": "Dermatology", "url": "/services/dermatology/"}, {"name": "Diagnostic Imaging", "url": "/services/diagnostic-imaging/"}, {"name": "Diet and Nutrition", "url": "/services/diet-nutrition/"}, {"name": "Doctor's Notes", "url": "/services/doctors-notes/"}, {"name": "EKG Walk-In", "url": "/services/ekg-walk-in/"}, {"name": "ENT", "url": "/services/ent/"}, {"name": "Echocardiography", "url": "/services/echocardiography/"}, {"name": "Endocrinology", "url": "/services/endocrinology/"}, {"name": "Excision and Biopsy", "url": "/services/excision-and-biopsy/"}, {"name": "Family Practice", "url": "/services/family-practice/"}, {"name": "Fast Track", "url": "/services/fast-track/"}, {"name": "Gastroenterology", "url": "/services/gastroenterology/"}, {"name": "Geriatrics", "url": "/services/geriatrics/"}, {"name": "Gynecology", "url": "/services/gynecology/"}, {"name": "Hemorrhoid Treatment Centres", "url": "/services/hemorrhoid-treatment-centres/"}, {"name": "ICBC and WorkSafeBC", "url": "/services/icbc-worksafebc/"}, {"name": "Immunology and Allergy", "url": "/services/immunology-allergy/"}];
+
+        const searchInput = document.getElementById('vc-hero-service-search');
+        const resultsContainer = document.getElementById('vc-hero-search-results');
+
+        if (!searchInput || !resultsContainer) return;
+
+        searchInput.addEventListener('input', function() {
+            const query = this.value.toLowerCase().trim();
+            resultsContainer.innerHTML = '';
+
+            if (query.length === 0) {
+                resultsContainer.classList.remove('active');
+                return;
+            }
+
+            const filteredServices = services.filter(service => 
+                service.name.toLowerCase().includes(query)
+            );
+
+            if (filteredServices.length > 0) {
+                filteredServices.forEach(service => {
+                    const item = document.createElement('a');
+                    item.href = service.url;
+                    item.className = 'vc-search-result-item';
+                    item.textContent = service.name;
+                    resultsContainer.appendChild(item);
+                });
+                resultsContainer.classList.add('active');
+            } else {
+                const noResults = document.createElement('div');
+                noResults.className = 'vc-no-results';
+                noResults.textContent = 'No services found matching "' + query + '"';
+                resultsContainer.appendChild(noResults);
+                resultsContainer.classList.add('active');
+            }
+        });
+
+        // Close results when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!searchInput.contains(e.target) && !resultsContainer.contains(e.target)) {
+                resultsContainer.classList.remove('active');
+            }
+        });
+        
+        // Show results again if input has value and is focused
+        searchInput.addEventListener('focus', function() {
+            if (this.value.trim().length > 0) {
+                resultsContainer.classList.add('active');
+            }
+        });
+    });
+    </script>
+
 </body>
 
 </html>
