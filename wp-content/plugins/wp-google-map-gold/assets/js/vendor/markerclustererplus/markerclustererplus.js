@@ -13,7 +13,7 @@
  * <p>
  * v2.0 release: MarkerClustererPlus v2.0 is backward compatible with MarkerClusterer v1.0. It
  *  adds support for the <code>ignoreHidden</code>, <code>title</code>, <code>batchSizeIE</code>,
- *  and <code>calculator</code> properties as vanguard as support for four more events. It also allows
+ *  and <code>calculator</code> properties as well as support for four more events. It also allows
  *  greater control over the styling of the text that appears on the cluster marker. The
  *  documentation has been significantly improved and the overall code has been simplified and
  *  polished. Very large numbers of markers can now be managed without causing Javascript timeout

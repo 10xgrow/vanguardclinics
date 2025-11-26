@@ -1,10 +1,10 @@
 .elementor-5992 .elementor-element.elementor-element-654b703:not(.elementor-motion-effects-element-type-background),
 .elementor-5992 .elementor-element.elementor-element-654b703>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: var(--e-global-color-primary);
+    background-color: var( --e-global-color-primary);
 }
 
 .elementor-5992 .elementor-element.elementor-element-654b703>.elementor-background-overlay {
-    background-image: url("/wp-content/uploads/2023/03/white_dots-1.png");
+    background-image: url("https://wellclinics.ca/wp-content/uploads/2023/03/white_dots-1.png");
     opacity: 0.1;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
@@ -41,18 +41,18 @@
 }
 
 .elementor-5992 .elementor-element.elementor-element-2175b30.elementor-view-stacked .elementor-icon {
-    background-color: var(--e-global-color-8310766);
+    background-color: var( --e-global-color-8310766);
 }
 
 .elementor-5992 .elementor-element.elementor-element-2175b30.elementor-view-framed .elementor-icon,
 .elementor-5992 .elementor-element.elementor-element-2175b30.elementor-view-default .elementor-icon {
-    color: var(--e-global-color-8310766);
-    border-color: var(--e-global-color-8310766);
+    color: var( --e-global-color-8310766);
+    border-color: var( --e-global-color-8310766);
 }
 
 .elementor-5992 .elementor-element.elementor-element-2175b30.elementor-view-framed .elementor-icon,
 .elementor-5992 .elementor-element.elementor-element-2175b30.elementor-view-default .elementor-icon svg {
-    fill: var(--e-global-color-8310766);
+    fill: var( --e-global-color-8310766);
 }
 
 .elementor-5992 .elementor-element.elementor-element-2175b30 .elementor-icon {
@@ -78,25 +78,25 @@
 
 .elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible a.hfe-sub-menu-item,
 .elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown li a.hfe-sub-menu-item {
-    padding-left: calc(10px + 20px);
+    padding-left: calc( 10px + 20px);
     padding-right: 10px;
 }
 
 .elementor-5992 .elementor-element.elementor-element-da43853 .hfe-dropdown .menu-item ul ul a.hfe-sub-menu-item,
 .elementor-5992 .elementor-element.elementor-element-da43853 .hfe-dropdown-expandible .menu-item ul ul a.hfe-sub-menu-item {
-    padding-left: calc(10px + 40px);
+    padding-left: calc( 10px + 40px);
     padding-right: 10px;
 }
 
 .elementor-5992 .elementor-element.elementor-element-da43853 .hfe-dropdown .menu-item ul ul ul a.hfe-sub-menu-item,
 .elementor-5992 .elementor-element.elementor-element-da43853 .hfe-dropdown-expandible .menu-item ul ul ul a.hfe-sub-menu-item {
-    padding-left: calc(10px + 60px);
+    padding-left: calc( 10px + 60px);
     padding-right: 10px;
 }
 
 .elementor-5992 .elementor-element.elementor-element-da43853 .hfe-dropdown .menu-item ul ul ul ul a.hfe-sub-menu-item,
 .elementor-5992 .elementor-element.elementor-element-da43853 .hfe-dropdown-expandible .menu-item ul ul ul ul a.hfe-sub-menu-item {
-    padding-left: calc(10px + 80px);
+    padding-left: calc( 10px + 80px);
     padding-right: 10px;
 }
 
@@ -142,7 +142,7 @@
 
 .elementor-5992 .elementor-element.elementor-element-da43853 .menu-item a.hfe-menu-item,
 .elementor-5992 .elementor-element.elementor-element-da43853 .sub-menu a.hfe-sub-menu-item {
-    color: var(--e-global-color-8310766);
+    color: var( --e-global-color-8310766);
 }
 
 .elementor-5992 .elementor-element.elementor-element-da43853 .sub-menu a.hfe-sub-menu-item,
@@ -151,7 +151,7 @@
 .elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown li a.hfe-sub-menu-item,
 .elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible li a.hfe-menu-item,
 .elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item {
-    color: var(--e-global-color-56f738c);
+    color: var( --e-global-color-56f738c);
 }
 
 .elementor-5992 .elementor-element.elementor-element-da43853 .sub-menu,
@@ -168,7 +168,7 @@
 .elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown li a.hfe-sub-menu-item:hover,
 .elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible li a.hfe-menu-item:hover,
 .elementor-5992 .elementor-element.elementor-element-da43853 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item:hover {
-    color: var(--e-global-color-text);
+    color: var( --e-global-color-text);
 }
 
 .elementor-5992 .elementor-element.elementor-element-da43853 .sub-menu li a.hfe-sub-menu-item,
@@ -210,7 +210,7 @@
     text-decoration: none;
     line-height: 48px;
     letter-spacing: -0.5px;
-    color: var(--e-global-color-8310766);
+    color: var( --e-global-color-8310766);
 }
 
 .elementor-5992 .elementor-element.elementor-element-58c0653>.elementor-widget-container {
@@ -225,7 +225,7 @@
     text-decoration: none;
     line-height: 48px;
     letter-spacing: -0.5px;
-    color: var(--e-global-color-8310766);
+    color: var( --e-global-color-8310766);
 }
 
 #elementor-popup-modal-5992 .dialog-widget-content {
@@ -249,39 +249,31 @@
     .elementor-5992 .elementor-element.elementor-element-654b703 {
         padding: 60px 0px 0px 60px;
     }
-
     .elementor-5992 .elementor-element.elementor-element-2175b30 .elementor-icon {
         font-size: 30px;
     }
-
     .elementor-5992 .elementor-element.elementor-element-2175b30 .elementor-icon svg {
         height: 30px;
     }
-
     .elementor-5992 .elementor-element.elementor-element-da43853 a.hfe-menu-item,
     .elementor-5992 .elementor-element.elementor-element-da43853 a.hfe-sub-menu-item {
         font-size: 30px;
         line-height: 36px;
     }
-
     .elementor-5992 .elementor-element.elementor-element-0c4d7fe>.elementor-widget-container {
         padding: 10px 0px 0px 0px;
     }
-
     .elementor-5992 .elementor-element.elementor-element-0c4d7fe {
         font-size: 30px;
         line-height: 36px;
     }
-
     .elementor-5992 .elementor-element.elementor-element-58c0653>.elementor-widget-container {
         padding: 10px 0px 0px 0px;
     }
-
     .elementor-5992 .elementor-element.elementor-element-58c0653 {
         font-size: 30px;
         line-height: 36px;
     }
-
     #elementor-popup-modal-5992 .dialog-message {
         height: 92vh;
     }
@@ -299,43 +291,34 @@
         margin-bottom: 0px;
         padding: 060px 20px 0px 20px;
     }
-
     .elementor-5992 .elementor-element.elementor-element-357e521>.elementor-element-populated {
         padding: 0px 0px 0px 0px;
     }
-
     .elementor-5992 .elementor-element.elementor-element-2175b30>.elementor-widget-container {
         margin: 15px 10px 0px 0px;
     }
-
     .elementor-5992 .elementor-element.elementor-element-2175b30 .elementor-icon {
         font-size: 24px;
     }
-
     .elementor-5992 .elementor-element.elementor-element-2175b30 .elementor-icon svg {
         height: 24px;
     }
-
     .elementor-5992 .elementor-element.elementor-element-da43853 a.hfe-menu-item,
     .elementor-5992 .elementor-element.elementor-element-da43853 a.hfe-sub-menu-item {
         font-size: 26px;
         line-height: 31px;
     }
-
     .elementor-5992 .elementor-element.elementor-element-0c4d7fe {
         font-size: 26px;
         line-height: 31px;
     }
-
     .elementor-5992 .elementor-element.elementor-element-58c0653 {
         font-size: 26px;
         line-height: 31px;
     }
-
     #elementor-popup-modal-5992 .dialog-message {
         height: 91vh;
     }
-
     #elementor-popup-modal-5992 .dialog-widget-content {
         margin: 135px 0px 0px 0px;
     }
