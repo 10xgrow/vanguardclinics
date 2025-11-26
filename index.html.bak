@@ -5710,7 +5710,7 @@
                                                                                                     <div
                                                                                                         class="elementor-widget-container">
                                                                                                         <!-- Dynamic PHP Raw --><a
-                                                                                                            href=/services/walk-in-clinic/?f=t><img
+                                                                                                            href=/contact-us/?f=t><img
                                                                                                                 class="tax_image_tile"
                                                                                                                 width="275px"
                                                                                                                 height="280px"
@@ -5727,7 +5727,7 @@
                                                                                                         <h3
                                                                                                             class="services_tile_title">
                                                                                                             <a
-                                                                                                                href="/services/walk-in-clinic/?f=t">Walk-In</a>
+                                                                                                                href="/contact-us/?f=t">Walk-In</a>
                                                                                                         </h3>
                                                                                                     </div>
                                                                                                 </div>
@@ -5738,7 +5738,7 @@
                                                                                                     <div
                                                                                                         class="elementor-widget-container">
                                                                                                         <!-- Dynamic PHP Raw -->
-                                                                                                        <a href="/services/walk-in-clinic/?f=t"
+                                                                                                        <a href="/contact-us/?f=t"
                                                                                                             class="services_tile_link">Learn
                                                                                                             More
                                                                                                             →</a>

@@ -938,9 +938,9 @@
                                                     <div class="elementor-widget-container">
                                                         <a href="https://vanguardclinics.ca"
                                                             style="text-decoration: none;">
-                                                            <span
-                                                                style="font-size: 32px; font-weight: 700; color: #2F6AA8; font-family: sans-serif; line-height: 1.2;">vanguard
-                                                                Clinic</span>
+                                                            <img src="../wp-content/images/vanguard-logo.png"
+                                                                alt="Vanguard Pharmacy Logo"
+                                                                style="max-height: 50px; width: auto;">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -1183,122 +1183,7 @@
                                     <!-- Dynamic PHP Raw -->
                                 </div>
                             </div>
-                            <section
-                                class="elementor-section elementor-inner-section elementor-element elementor-element-d188075 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                data-id="d188075" data-element_type="section"
-                                data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
-                                <div class="elementor-container elementor-column-gap-default">
-                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-9bde24d"
-                                        data-id="9bde24d" data-element_type="column">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-1c1160e elementor-widget-mobile__width-inherit elementor-widget elementor-widget-html"
-                                                data-id="1c1160e" data-element_type="widget"
-                                                data-widget_type="html.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="custom-select">
-                                                        <label for="care-select"><b>Viewing available care options in:
-                                                            </b></label>
-                                                        <select id="care-select" name="care-select">
-                                                            <option value="on">Ontario</option>
-                                                        </select>
-                                                    </div>
 
-                                                    <script>
-                                                        jQuery(document).ready(function ($) {
-
-
-                                                            // Get the value of the "location" parameter from the URL
-                                                            var urlParams = new URLSearchParams(window.location.search);
-                                                            var locationParam = urlParams.get('location');
-
-                                                            // If "location" parameter exists and is not null, set the selected option in the dropdown
-                                                            if (locationParam !== null) {
-                                                                $('#care-select').val(locationParam);
-                                                            }
-
-                                                            $('#care-select').change(function () {
-
-                                                                var selectedValue = $(this).val();
-                                                                if (selectedValue !== 'cn') {
-                                                                    var url = window.location.href;
-                                                                    var newUrl;
-                                                                    if (url.indexOf('?') !== -1) {
-                                                                        var baseUrl = url.split('?')[0];
-                                                                        var queryParams = url.split('?')[1].split('&');
-                                                                        var newParams = [];
-                                                                        var hasLocation = false;
-                                                                        queryParams.forEach(function (param) {
-                                                                            if (param.split('=')[0] === 'location') {
-                                                                                newParams.push('location=' + selectedValue);
-                                                                                hasLocation = true;
-                                                                            } else {
-                                                                                newParams.push(param);
-                                                                            }
-                                                                        });
-                                                                        if (!hasLocation) {
-                                                                            newParams.push('location=' + selectedValue);
-                                                                        }
-                                                                        newUrl = baseUrl + '?' + newParams.join('&');
-                                                                    } else {
-                                                                        newUrl = url + '?location=' + selectedValue;
-                                                                    }
-                                                                    window.location.href = newUrl;
-                                                                } else {
-                                                                    var url = window.location.href;
-                                                                    if (url.indexOf('?') !== -1) {
-                                                                        var baseUrl = url.split('?')[0];
-                                                                        window.location.href = baseUrl;
-                                                                    }
-                                                                }
-                                                            });
-                                                        });
-                                                    </script>
-
-
-                                                    <style>
-                                                        @media (max-width: 767px) {
-                                                            .custom-select label {
-                                                                font-size: 22px !important;
-                                                                display: block;
-                                                            }
-
-                                                            .custom-select select {
-                                                                display: block !important;
-                                                                margin-top: 10px
-                                                            }
-                                                        }
-
-                                                        .custom-select {
-                                                            display: block !important;
-                                                            align-items: middle !important;
-                                                            padding-left: auto;
-                                                            padding-right: auto;
-                                                        }
-
-                                                        .custom-select label {
-                                                            display: inline-flex;
-                                                            vertical-align: middle !important;
-                                                            padding-top: 0px;
-                                                            width: 380px;
-                                                            font-size: 24px;
-                                                            color: #4792CF;
-                                                            font-weight: bold !important;
-                                                        }
-
-                                                        .custom-select select {
-                                                            display: inline-flex;
-                                                            vertical-align: middle !important;
-                                                            width: 48%;
-                                                            max-width: 170px !important;
-                                                            border-radius: 35px;
-                                                        }
-                                                    </style>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
                             <section
                                 data-dce-background-overlay-image-url="/wp-content/uploads/2023/03/blue-dots-bg-right.png"
                                 class="elementor-section elementor-inner-section elementor-element elementor-element-2a1bb8d elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -1339,7 +1224,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper">
                                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                            href="/services/walk-in">
+                                                            href="/contact-us">
                                                             <span class="elementor-button-content-wrapper">
                                                                 <span class="elementor-button-text">Walk-In</span>
                                                             </span>
