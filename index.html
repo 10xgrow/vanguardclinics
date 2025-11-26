@@ -2247,14 +2247,14 @@
             align-items: center;
             background: #fff;
             border-radius: 50px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             padding: 5px 20px;
             border: 1px solid #e0e0e0;
         }
 
         .vc-hero-search-input-container:focus-within {
             border-color: #00d084;
-            box-shadow: 0 4px 20px rgba(0,208,132,0.2);
+            box-shadow: 0 4px 20px rgba(0, 208, 132, 0.2);
         }
 
         .vc-hero-search-icon {
@@ -2280,7 +2280,7 @@
             right: 0;
             background: #fff;
             border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
             margin-top: 10px;
             z-index: 1000;
             max-height: 300px;
@@ -2697,21 +2697,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-ec76a16 elementor-widget__width-auto elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button"
-                                                data-id="ec76a16" data-element_type="widget"
-                                                data-widget_type="button.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-button-wrapper">
-                                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                            href="/contact-us">
-                                                            <span class="elementor-button-content-wrapper">
-                                                                <span class="elementor-button-text">View All
-                                                                    Clinics</span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
+
                                             <div class="elementor-element elementor-element-ff26fdf elementor-widget__width-auto elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button"
                                                 data-id="ff26fdf" data-element_type="widget"
                                                 data-widget_type="button.default">
@@ -2727,21 +2713,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-d71df33 elementor-widget__width-auto elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget-laptop__width-auto stayheroc elementor-widget elementor-widget-button"
-                                                data-id="d71df33" data-element_type="widget"
-                                                data-widget_type="button.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-button-wrapper">
-                                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                            href="https://share.hsforms.com/1YBLrxEBDSZumSs_mpbHItQc7gtp"
-                                                            target="_blank" id="stayhero">
-                                                            <span class="elementor-button-content-wrapper">
-                                                                <span class="elementor-button-text">Stay Updated</span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
+
                                             <div class="elementor-element elementor-element-6353732 elementor-widget elementor-widget-text-editor"
                                                 data-id="6353732" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
@@ -2756,11 +2728,14 @@
                                                     <div class="vc-hero-search-wrapper">
                                                         <div class="vc-hero-search-input-container">
                                                             <i class="fas fa-search vc-hero-search-icon"></i>
-                                                            <input type="text" id="vc-hero-service-search" placeholder="Search for services (e.g. Family Practice, Walk-In)..." autocomplete="off">
+                                                            <input type="text" id="vc-hero-service-search"
+                                                                placeholder="Search for services (e.g. Family Practice, Walk-In)..."
+                                                                autocomplete="off">
                                                         </div>
-                                                        <div id="vc-hero-search-results" class="vc-hero-search-results"></div>
+                                                        <div id="vc-hero-search-results" class="vc-hero-search-results">
+                                                        </div>
                                                     </div>
-            </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -9500,6 +9475,8 @@
                                                             <p><a href="/terms-of-use">Terms of Use</a><br /><br /><a
                                                                     href="/reserve-and-walk-in/">Reserve
                                                                     &amp; Walk In</a></p>
+                                                            <p><a href="tel:+12049639590">Contact: +1 (204) 963-9590</a>
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -11171,59 +11148,59 @@
     </script>
 
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const services = [{"name": "Acupuncture", "url": "/services/acupuncture/"}, {"name": "Aesthetics", "url": "/services/aesthetics/"}, {"name": "Allied Health", "url": "/services/allied-health/"}, {"name": "Attention Difficulties ADHD", "url": "/services/attention-difficulties-adhd/"}, {"name": "Behavioural Issues and Development Delay", "url": "/services/behavioural-issues-development-delay/"}, {"name": "Bone Density", "url": "/services/bone-density/"}, {"name": "Cardiology", "url": "/services/cardiology/"}, {"name": "Childrens Urgent Care", "url": "/services/childrens-urgent-care/"}, {"name": "Chiropractic", "url": "/services/chiropractic/"}, {"name": "Custom Orthotics", "url": "/services/custom-orthotics/"}, {"name": "Day Surgery", "url": "/services/day-surgery/"}, {"name": "Dermatology", "url": "/services/dermatology/"}, {"name": "Diagnostic Imaging", "url": "/services/diagnostic-imaging/"}, {"name": "Diet and Nutrition", "url": "/services/diet-nutrition/"}, {"name": "Doctor's Notes", "url": "/services/doctors-notes/"}, {"name": "EKG Walk-In", "url": "/services/ekg-walk-in/"}, {"name": "ENT", "url": "/services/ent/"}, {"name": "Echocardiography", "url": "/services/echocardiography/"}, {"name": "Endocrinology", "url": "/services/endocrinology/"}, {"name": "Excision and Biopsy", "url": "/services/excision-and-biopsy/"}, {"name": "Family Practice", "url": "/services/family-practice/"}, {"name": "Fast Track", "url": "/services/fast-track/"}, {"name": "Gastroenterology", "url": "/services/gastroenterology/"}, {"name": "Geriatrics", "url": "/services/geriatrics/"}, {"name": "Gynecology", "url": "/services/gynecology/"}, {"name": "Hemorrhoid Treatment Centres", "url": "/services/hemorrhoid-treatment-centres/"}, {"name": "ICBC and WorkSafeBC", "url": "/services/icbc-worksafebc/"}, {"name": "Immunology and Allergy", "url": "/services/immunology-allergy/"}];
+        document.addEventListener('DOMContentLoaded', function () {
+            const services = [{ "name": "Acupuncture", "url": "/services/acupuncture/" }, { "name": "Aesthetics", "url": "/services/aesthetics/" }, { "name": "Allied Health", "url": "/services/allied-health/" }, { "name": "Attention Difficulties ADHD", "url": "/services/attention-difficulties-adhd/" }, { "name": "Behavioural Issues and Development Delay", "url": "/services/behavioural-issues-development-delay/" }, { "name": "Bone Density", "url": "/services/bone-density/" }, { "name": "Cardiology", "url": "/services/cardiology/" }, { "name": "Childrens Urgent Care", "url": "/services/childrens-urgent-care/" }, { "name": "Chiropractic", "url": "/services/chiropractic/" }, { "name": "Custom Orthotics", "url": "/services/custom-orthotics/" }, { "name": "Day Surgery", "url": "/services/day-surgery/" }, { "name": "Dermatology", "url": "/services/dermatology/" }, { "name": "Diagnostic Imaging", "url": "/services/diagnostic-imaging/" }, { "name": "Diet and Nutrition", "url": "/services/diet-nutrition/" }, { "name": "Doctor's Notes", "url": "/services/doctors-notes/" }, { "name": "EKG Walk-In", "url": "/services/ekg-walk-in/" }, { "name": "ENT", "url": "/services/ent/" }, { "name": "Echocardiography", "url": "/services/echocardiography/" }, { "name": "Endocrinology", "url": "/services/endocrinology/" }, { "name": "Excision and Biopsy", "url": "/services/excision-and-biopsy/" }, { "name": "Family Practice", "url": "/services/family-practice/" }, { "name": "Fast Track", "url": "/services/fast-track/" }, { "name": "Gastroenterology", "url": "/services/gastroenterology/" }, { "name": "Geriatrics", "url": "/services/geriatrics/" }, { "name": "Gynecology", "url": "/services/gynecology/" }, { "name": "Hemorrhoid Treatment Centres", "url": "/services/hemorrhoid-treatment-centres/" }, { "name": "ICBC and WorkSafeBC", "url": "/services/icbc-worksafebc/" }, { "name": "Immunology and Allergy", "url": "/services/immunology-allergy/" }];
 
-        const searchInput = document.getElementById('vc-hero-service-search');
-        const resultsContainer = document.getElementById('vc-hero-search-results');
+            const searchInput = document.getElementById('vc-hero-service-search');
+            const resultsContainer = document.getElementById('vc-hero-search-results');
 
-        if (!searchInput || !resultsContainer) return;
+            if (!searchInput || !resultsContainer) return;
 
-        searchInput.addEventListener('input', function() {
-            const query = this.value.toLowerCase().trim();
-            resultsContainer.innerHTML = '';
+            searchInput.addEventListener('input', function () {
+                const query = this.value.toLowerCase().trim();
+                resultsContainer.innerHTML = '';
 
-            if (query.length === 0) {
-                resultsContainer.classList.remove('active');
-                return;
-            }
+                if (query.length === 0) {
+                    resultsContainer.classList.remove('active');
+                    return;
+                }
 
-            const filteredServices = services.filter(service => 
-                service.name.toLowerCase().includes(query)
-            );
+                const filteredServices = services.filter(service =>
+                    service.name.toLowerCase().includes(query)
+                );
 
-            if (filteredServices.length > 0) {
-                filteredServices.forEach(service => {
-                    const item = document.createElement('a');
-                    item.href = service.url;
-                    item.className = 'vc-search-result-item';
-                    item.textContent = service.name;
-                    resultsContainer.appendChild(item);
-                });
-                resultsContainer.classList.add('active');
-            } else {
-                const noResults = document.createElement('div');
-                noResults.className = 'vc-no-results';
-                noResults.textContent = 'No services found matching "' + query + '"';
-                resultsContainer.appendChild(noResults);
-                resultsContainer.classList.add('active');
-            }
+                if (filteredServices.length > 0) {
+                    filteredServices.forEach(service => {
+                        const item = document.createElement('a');
+                        item.href = service.url;
+                        item.className = 'vc-search-result-item';
+                        item.textContent = service.name;
+                        resultsContainer.appendChild(item);
+                    });
+                    resultsContainer.classList.add('active');
+                } else {
+                    const noResults = document.createElement('div');
+                    noResults.className = 'vc-no-results';
+                    noResults.textContent = 'No services found matching "' + query + '"';
+                    resultsContainer.appendChild(noResults);
+                    resultsContainer.classList.add('active');
+                }
+            });
+
+            // Close results when clicking outside
+            document.addEventListener('click', function (e) {
+                if (!searchInput.contains(e.target) && !resultsContainer.contains(e.target)) {
+                    resultsContainer.classList.remove('active');
+                }
+            });
+
+            // Show results again if input has value and is focused
+            searchInput.addEventListener('focus', function () {
+                if (this.value.trim().length > 0) {
+                    resultsContainer.classList.add('active');
+                }
+            });
         });
-
-        // Close results when clicking outside
-        document.addEventListener('click', function(e) {
-            if (!searchInput.contains(e.target) && !resultsContainer.contains(e.target)) {
-                resultsContainer.classList.remove('active');
-            }
-        });
-        
-        // Show results again if input has value and is focused
-        searchInput.addEventListener('focus', function() {
-            if (this.value.trim().length > 0) {
-                resultsContainer.classList.add('active');
-            }
-        });
-    });
     </script>
 
 </body>
