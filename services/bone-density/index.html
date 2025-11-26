@@ -910,7 +910,7 @@
 											</div>
 											<div class="dce-visibility-event elementor-element elementor-element-59b029e3 elementor-widget__width-auto elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button"
 												data-id="59b029e3" data-element_type="widget"
-												data-settings="{&quot;enabled_visibility&quot;:&quot;yes&quot;,&quot;dce_visibility_selected&quot;:&quot;hide&quot;}"
+												data-settings="{&quot;enabled_visibility&quot;:&quot;yes&quot;,&quot;dce_visibility_selected&quot;:&quot;yes&quot;}"
 												data-widget_type="button.default">
 												<div class="elementor-widget-container">
 													<div class="elementor-button-wrapper">
@@ -968,7 +968,7 @@
 							<section
 								class="dce-visibility-event elementor-section elementor-inner-section elementor-element elementor-element-516f75c6 service-faq elementor-section-boxed elementor-section-height-default elementor-section-height-default"
 								data-id="516f75c6" data-element_type="section"
-								data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;enabled_visibility&quot;:&quot;yes&quot;,&quot;dce_visibility_selected&quot;:&quot;hide&quot;}">
+								data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;enabled_visibility&quot;:&quot;yes&quot;,&quot;dce_visibility_selected&quot;:&quot;yes&quot;}">
 								<div class="elementor-container elementor-column-gap-no">
 									<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-584dcbbf"
 										data-id="584dcbbf" data-element_type="column">
@@ -1044,7 +1044,7 @@
 															</h4>
 															<div id="elementor-tab-content-1441"
 																class="elementor-tab-content elementor-clearfix"
-																data-tab="1" role="region"
+																 style="display: none;" data-tab="1" role="region"
 																aria-labelledby="elementor-tab-title-1441">
 																<p>A Bone Mineral Density (BMD) test is a painless and
 																	non-invasive examination that measures bone density.
@@ -1104,7 +1104,7 @@
 															</h4>
 															<div id="elementor-tab-content-1442"
 																class="elementor-tab-content elementor-clearfix"
-																data-tab="2" role="region"
+																 style="display: none;" data-tab="2" role="region"
 																aria-labelledby="elementor-tab-title-1442">
 																<p>
 																<p><span data-contrast="\&quot;none\&quot;">Although
@@ -1246,7 +1246,7 @@
 															</h4>
 															<div id="elementor-tab-content-1443"
 																class="elementor-tab-content elementor-clearfix"
-																data-tab="3" role="region"
+																 style="display: none;" data-tab="3" role="region"
 																aria-labelledby="elementor-tab-title-1443">
 																<p>A bone density test uses X-rays to measure how many
 																	grams of calcium and other bone minerals are packed
@@ -1308,7 +1308,7 @@
 															</h4>
 															<div id="elementor-tab-content-1444"
 																class="elementor-tab-content elementor-clearfix"
-																data-tab="4" role="region"
+																 style="display: none;" data-tab="4" role="region"
 																aria-labelledby="elementor-tab-title-1444">
 																<p>
 																<p><span data-contrast="none">To avoid delays on the day
@@ -1446,7 +1446,7 @@
 															</h4>
 															<div id="elementor-tab-content-1445"
 																class="elementor-tab-content elementor-clearfix"
-																data-tab="5" role="region"
+																 style="display: none;" data-tab="5" role="region"
 																aria-labelledby="elementor-tab-title-1445">
 																<p>
 																<p>You can use the Vanguard Pharmacy website to quickly
@@ -1469,7 +1469,7 @@
 											</div>
 											<div class="dce-visibility-event elementor-element elementor-element-74edc61f elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget__width-auto elementor-widget elementor-widget-button"
 												data-id="74edc61f" data-element_type="widget"
-												data-settings="{&quot;enabled_visibility&quot;:&quot;yes&quot;,&quot;dce_visibility_selected&quot;:&quot;hide&quot;}"
+												data-settings="{&quot;enabled_visibility&quot;:&quot;yes&quot;,&quot;dce_visibility_selected&quot;:&quot;yes&quot;}"
 												data-widget_type="button.default">
 												<div class="elementor-widget-container">
 													<div class="elementor-button-wrapper">
@@ -1914,6 +1914,39 @@
 	<script src="/wp-content/plugins/jet-elements/assets/js/jet-elements.min.js?ver=2.7.9.1"
 		id="jet-elements-js"></script>
 	<script src="/wp-content/plugins/listing-designs-for-google-maps/assets/js/wpgmp-layouts.js"></script>
+
+<script>
+// Manual accordion handler for FAQ sections
+document.addEventListener('DOMContentLoaded', function() {
+    const accordionTitles = document.querySelectorAll('.service-faq .elementor-tab-title');
+    
+    accordionTitles.forEach(function(title) {
+        title.addEventListener('click', function() {
+            const contentId = this.getAttribute('aria-controls');
+            const content = document.getElementById(contentId);
+            const isExpanded = this.getAttribute('aria-expanded') === 'true';
+            
+            // Toggle aria-expanded
+            this.setAttribute('aria-expanded', !isExpanded);
+            
+            // Toggle active class on parent item
+            const item = this.closest('.elementor-accordion-item');
+            if (item) {
+                item.classList.toggle('elementor-active');
+            }
+            
+            // Toggle content display
+            if (content) {
+                if (isExpanded) {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            }
+        });
+    });
+});
+</script>
 </body>
 
 </html>
