@@ -2486,7 +2486,7 @@
                                                             <a class="elementor-button elementor-button-link elementor-size-lg"
                                                                 href="/contact-us">
                                                                 <span class="elementor-button-content-wrapper">
-                                                                    <span class="elementor-button-text">Find Clinics
+                                                                    <span class="elementor-button-text">Find Clinic
                                                                     </span>
                                                                 </span>
                                                             </a>
@@ -9493,7 +9493,7 @@
                                             data-id="58c0653" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <a href="/contact-us" target="_blank" rel="noopener">Find Clinics
+                                                <a href="/contact-us" target="_blank" rel="noopener">Find Clinic
                                                 </a>
                                             </div>
                                         </div>
