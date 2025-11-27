@@ -931,7 +931,7 @@
 									</div>
 								</div>
 							</section>
-							
+
 							<section
 								class="dce-visibility-event elementor-section elementor-inner-section elementor-element elementor-element-516f75c6 service-faq elementor-section-boxed elementor-section-height-default elementor-section-height-default"
 								data-id="516f75c6" data-element_type="section"
@@ -1013,7 +1013,7 @@
 															</h4>
 															<div id="elementor-tab-content-1441"
 																class="elementor-tab-content elementor-clearfix"
-																 style="display: none;" data-tab="1" role="region"
+																style="display: none;" data-tab="1" role="region"
 																aria-labelledby="elementor-tab-title-1441">
 																<p>
 																<p><span data-contrast="none">The CRH O’Regan System® is
@@ -1090,7 +1090,7 @@
 															</h4>
 															<div id="elementor-tab-content-1442"
 																class="elementor-tab-content elementor-clearfix"
-																 style="display: none;" data-tab="2" role="region"
+																style="display: none;" data-tab="2" role="region"
 																aria-labelledby="elementor-tab-title-1442">
 																<p>
 																<p>Yes, the procedure at Vanguard Hemorrhoid Treatment
@@ -1159,7 +1159,7 @@
 															</h4>
 															<div id="elementor-tab-content-1443"
 																class="elementor-tab-content elementor-clearfix"
-																 style="display: none;" data-tab="3" role="region"
+																style="display: none;" data-tab="3" role="region"
 																aria-labelledby="elementor-tab-title-1443">
 																<p>
 																<p>The treatment process at Vanguard Hemorrhoid
@@ -1230,7 +1230,7 @@
 															</h4>
 															<div id="elementor-tab-content-1444"
 																class="elementor-tab-content elementor-clearfix"
-																 style="display: none;" data-tab="4" role="region"
+																style="display: none;" data-tab="4" role="region"
 																aria-labelledby="elementor-tab-title-1444">
 																<p>Yes, some provincial health insurance does cover
 																	procedures at Vanguard Pharmacy.
@@ -1292,7 +1292,7 @@
 															</h4>
 															<div id="elementor-tab-content-1445"
 																class="elementor-tab-content elementor-clearfix"
-																 style="display: none;" data-tab="5" role="region"
+																style="display: none;" data-tab="5" role="region"
 																aria-labelledby="elementor-tab-title-1445">
 																<p>
 																<p>You can use the Vanguard Pharmacy website to find a
@@ -1516,18 +1516,18 @@
 													</div>
 												</div>
 											</div>
-											
-												</div>
-											</div>
+
 										</div>
-									</section>
 								</div>
 							</div>
-						</div>
 					</section>
 				</div>
 			</div>
-		</footer>
+	</div>
+	</section>
+	</div>
+	</div>
+	</footer>
 	</div><!-- #page -->
 	<div class='asp_hidden_data' id="asp_hidden_data" style="display: none !important;">
 		<svg style="position:absolute" height="0" width="0">
@@ -1596,14 +1596,14 @@
 											data-id="0c4d7fe" data-element_type="widget"
 											data-widget_type="text-editor.default">
 											<div class="elementor-widget-container">
-												<p><a href="/national-all-services-page/">Find Types of Care</a></p>
+												<p><a href="/services/">Find Types of Care</a></p>
 											</div>
 										</div>
 										<div class="elementor-element elementor-element-58c0653 elementor-widget elementor-widget-text-editor"
 											data-id="58c0653" data-element_type="widget"
 											data-widget_type="text-editor.default">
 											<div class="elementor-widget-container">
-												<a href="/find-a-clinic" target="_blank" rel="noopener">Find Clinic
+												<a href="/contact-us" target="_blank" rel="noopener">Find Clinic
 													&amp; Book Appts</a>
 											</div>
 										</div>
@@ -1755,38 +1755,38 @@
 		id="jet-elements-js"></script>
 	<script src="/wp-content/plugins/listing-designs-for-google-maps/assets/js/wpgmp-layouts.js"></script>
 
-<script>
-// Manual accordion handler for FAQ sections
-document.addEventListener('DOMContentLoaded', function() {
-    const accordionTitles = document.querySelectorAll('.service-faq .elementor-tab-title');
-    
-    accordionTitles.forEach(function(title) {
-        title.addEventListener('click', function() {
-            const contentId = this.getAttribute('aria-controls');
-            const content = document.getElementById(contentId);
-            const isExpanded = this.getAttribute('aria-expanded') === 'true';
-            
-            // Toggle aria-expanded
-            this.setAttribute('aria-expanded', !isExpanded);
-            
-            // Toggle active class on parent item
-            const item = this.closest('.elementor-accordion-item');
-            if (item) {
-                item.classList.toggle('elementor-active');
-            }
-            
-            // Toggle content display
-            if (content) {
-                if (isExpanded) {
-                    content.style.display = 'none';
-                } else {
-                    content.style.display = 'block';
-                }
-            }
-        });
-    });
-});
-</script>
+	<script>
+		// Manual accordion handler for FAQ sections
+		document.addEventListener('DOMContentLoaded', function () {
+			const accordionTitles = document.querySelectorAll('.service-faq .elementor-tab-title');
+
+			accordionTitles.forEach(function (title) {
+				title.addEventListener('click', function () {
+					const contentId = this.getAttribute('aria-controls');
+					const content = document.getElementById(contentId);
+					const isExpanded = this.getAttribute('aria-expanded') === 'true';
+
+					// Toggle aria-expanded
+					this.setAttribute('aria-expanded', !isExpanded);
+
+					// Toggle active class on parent item
+					const item = this.closest('.elementor-accordion-item');
+					if (item) {
+						item.classList.toggle('elementor-active');
+					}
+
+					// Toggle content display
+					if (content) {
+						if (isExpanded) {
+							content.style.display = 'none';
+						} else {
+							content.style.display = 'block';
+						}
+					}
+				});
+			});
+		});
+	</script>
 </body>
 
 </html>
