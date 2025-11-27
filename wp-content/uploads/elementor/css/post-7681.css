@@ -1,10 +1,10 @@
 .elementor-7681 .elementor-element.elementor-element-3bd5d874:not(.elementor-motion-effects-element-type-background),
 .elementor-7681 .elementor-element.elementor-element-3bd5d874>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: var( --e-global-color-8310766);
+    background-color: var(--e-global-color-8310766);
 }
 
 .elementor-7681 .elementor-element.elementor-element-3bd5d874>.elementor-background-overlay {
-    background-image: url("https://vanguardclinics.ca/wp-content/uploads/2023/03/blue_dots-right.png");
+    background-image: url("/wp-content/uploads/2023/03/blue_dots-right.png");
     background-position: center right;
     background-repeat: repeat-y;
     opacity: 0.1;
@@ -33,7 +33,7 @@
     text-decoration: none;
     line-height: 72px;
     letter-spacing: -0.5px;
-    color: var( --e-global-color-primary);
+    color: var(--e-global-color-primary);
 }
 
 .elementor-7681 .elementor-element.elementor-element-7c93177d>.elementor-widget-container {
@@ -47,7 +47,7 @@
     font-style: normal;
     text-decoration: none;
     line-height: 28px;
-    color: var( --e-global-color-6b6f2ff);
+    color: var(--e-global-color-6b6f2ff);
 }
 
 .elementor-7681 .elementor-element.elementor-element-59b029e3 .elementor-button {
@@ -58,9 +58,9 @@
     font-style: normal;
     text-decoration: none;
     line-height: 28px;
-    fill: var( --e-global-color-8310766);
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-primary) 0%, var( --e-global-color-secondary) 100%);
+    fill: var(--e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-primary) 0%, var(--e-global-color-secondary) 100%);
     border-radius: 30px 30px 30px 30px;
     padding: 14px 30px 13px 30px;
 }
@@ -68,8 +68,8 @@
 .elementor-7681 .elementor-element.elementor-element-59b029e3 .elementor-button:hover,
 .elementor-7681 .elementor-element.elementor-element-59b029e3 .elementor-button:focus {
     background-color: transparent;
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-text) 0%, var( --e-global-color-text) 100%);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-text) 0%, var(--e-global-color-text) 100%);
 }
 
 .elementor-7681 .elementor-element.elementor-element-59b029e3 {
@@ -91,7 +91,7 @@
 
 .elementor-7681 .elementor-element.elementor-element-59b029e3 .elementor-button:hover svg,
 .elementor-7681 .elementor-element.elementor-element-59b029e3 .elementor-button:focus svg {
-    fill: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
 }
 
 .elementor-7681 .elementor-element.elementor-element-2316559 .elementor-button {
@@ -102,9 +102,9 @@
     font-style: normal;
     text-decoration: none;
     line-height: 28px;
-    fill: var( --e-global-color-8310766);
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-primary) 0%, var( --e-global-color-secondary) 100%);
+    fill: var(--e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-primary) 0%, var(--e-global-color-secondary) 100%);
     border-radius: 30px 30px 30px 30px;
     padding: 14px 30px 13px 30px;
 }
@@ -112,8 +112,8 @@
 .elementor-7681 .elementor-element.elementor-element-2316559 .elementor-button:hover,
 .elementor-7681 .elementor-element.elementor-element-2316559 .elementor-button:focus {
     background-color: transparent;
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-text) 0%, var( --e-global-color-text) 100%);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-text) 0%, var(--e-global-color-text) 100%);
 }
 
 .elementor-7681 .elementor-element.elementor-element-2316559 {
@@ -135,7 +135,7 @@
 
 .elementor-7681 .elementor-element.elementor-element-2316559 .elementor-button:hover svg,
 .elementor-7681 .elementor-element.elementor-element-2316559 .elementor-button:focus svg {
-    fill: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
 }
 
 .elementor-7681 .elementor-element.elementor-element-eb86116 .elementor-button {
@@ -146,9 +146,9 @@
     font-style: normal;
     text-decoration: none;
     line-height: 28px;
-    fill: var( --e-global-color-8310766);
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-primary) 0%, var( --e-global-color-secondary) 100%);
+    fill: var(--e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-primary) 0%, var(--e-global-color-secondary) 100%);
     border-radius: 30px 30px 30px 30px;
     padding: 14px 30px 13px 30px;
 }
@@ -156,8 +156,8 @@
 .elementor-7681 .elementor-element.elementor-element-eb86116 .elementor-button:hover,
 .elementor-7681 .elementor-element.elementor-element-eb86116 .elementor-button:focus {
     background-color: transparent;
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-text) 0%, var( --e-global-color-text) 100%);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-text) 0%, var(--e-global-color-text) 100%);
 }
 
 .elementor-7681 .elementor-element.elementor-element-eb86116 {
@@ -179,7 +179,7 @@
 
 .elementor-7681 .elementor-element.elementor-element-eb86116 .elementor-button:hover svg,
 .elementor-7681 .elementor-element.elementor-element-eb86116 .elementor-button:focus svg {
-    fill: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
 }
 
 .elementor-7681 .elementor-element.elementor-element-f9cf5f1 .elementor-button {
@@ -190,9 +190,9 @@
     font-style: normal;
     text-decoration: none;
     line-height: 28px;
-    fill: var( --e-global-color-8310766);
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-primary) 0%, var( --e-global-color-secondary) 100%);
+    fill: var(--e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-primary) 0%, var(--e-global-color-secondary) 100%);
     border-radius: 30px 30px 30px 30px;
     padding: 14px 30px 13px 30px;
 }
@@ -200,8 +200,8 @@
 .elementor-7681 .elementor-element.elementor-element-f9cf5f1 .elementor-button:hover,
 .elementor-7681 .elementor-element.elementor-element-f9cf5f1 .elementor-button:focus {
     background-color: transparent;
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-text) 0%, var( --e-global-color-text) 100%);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-text) 0%, var(--e-global-color-text) 100%);
 }
 
 .elementor-7681 .elementor-element.elementor-element-f9cf5f1 {
@@ -223,7 +223,7 @@
 
 .elementor-7681 .elementor-element.elementor-element-f9cf5f1 .elementor-button:hover svg,
 .elementor-7681 .elementor-element.elementor-element-f9cf5f1 .elementor-button:focus svg {
-    fill: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
 }
 
 .elementor-7681 .elementor-element.elementor-element-4004e377>.elementor-element-populated {
@@ -269,12 +269,12 @@
     font-size: 44px;
     line-height: 62px;
     letter-spacing: -0.5px;
-    color: var( --e-global-color-primary);
+    color: var(--e-global-color-primary);
 }
 
 .elementor-7681 .elementor-element.elementor-element-d532b8c .jet-carousel__content {
     background-color: transparent;
-    background-image: linear-gradient(180deg, var( --e-global-color-primary) 0%, var( --e-global-color-text) 100%);
+    background-image: linear-gradient(180deg, var(--e-global-color-primary) 0%, var(--e-global-color-text) 100%);
     text-align: left;
     padding: 35px 20px 20px 20px;
     border-radius: 0px 0px 15px 15px;
@@ -303,11 +303,11 @@
 }
 
 .elementor-7681 .elementor-element.elementor-element-d532b8c .jet-carousel__content .jet-carousel__item-title {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-7681 .elementor-element.elementor-element-d532b8c .jet-banner__title {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
 }
 
 .elementor-7681 .elementor-element.elementor-element-d532b8c .jet-carousel__content .jet-carousel__item-text,
@@ -321,12 +321,12 @@
 }
 
 .elementor-7681 .elementor-element.elementor-element-d532b8c .jet-carousel__content .jet-carousel__item-text {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
     margin: 10px 0px 0px 0px;
 }
 
 .elementor-7681 .elementor-element.elementor-element-d532b8c .jet-banner__text {
-    color: var( --e-global-color-8310766);
+    color: var(--e-global-color-8310766);
     margin: 10px 0px 0px 0px;
 }
 
@@ -407,40 +407,40 @@
     font-size: 44px;
     line-height: 62px;
     letter-spacing: -0.5px;
-    color: var( --e-global-color-primary);
+    color: var(--e-global-color-primary);
 }
 
 .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-accordion-item {
     border-width: 1px;
-    border-color: var( --e-global-color-accent);
+    border-color: var(--e-global-color-accent);
 }
 
 .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-accordion-item .elementor-tab-content {
     border-width: 1px;
-    border-block-start-color: var( --e-global-color-accent);
+    border-block-start-color: var(--e-global-color-accent);
 }
 
 .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-accordion-item .elementor-tab-title.elementor-active {
     border-width: 1px;
-    border-block-end-color: var( --e-global-color-accent);
+    border-block-end-color: var(--e-global-color-accent);
 }
 
 .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-accordion-icon,
 .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-accordion-title {
-    color: var( --e-global-color-56f738c);
+    color: var(--e-global-color-56f738c);
 }
 
 .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-accordion-icon svg {
-    fill: var( --e-global-color-56f738c);
+    fill: var(--e-global-color-56f738c);
 }
 
 .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-active .elementor-accordion-icon,
 .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-active .elementor-accordion-title {
-    color: var( --e-global-color-text);
+    color: var(--e-global-color-text);
 }
 
 .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-active .elementor-accordion-icon svg {
-    fill: var( --e-global-color-text);
+    fill: var(--e-global-color-text);
 }
 
 .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-accordion-title {
@@ -458,23 +458,23 @@
 }
 
 .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-tab-title .elementor-accordion-icon i:before {
-    color: var( --e-global-color-primary);
+    color: var(--e-global-color-primary);
 }
 
 .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-tab-title .elementor-accordion-icon svg {
-    fill: var( --e-global-color-primary);
+    fill: var(--e-global-color-primary);
 }
 
 .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-tab-title.elementor-active .elementor-accordion-icon i:before {
-    color: var( --e-global-color-text);
+    color: var(--e-global-color-text);
 }
 
 .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-tab-title.elementor-active .elementor-accordion-icon svg {
-    fill: var( --e-global-color-text);
+    fill: var(--e-global-color-text);
 }
 
 .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-tab-content {
-    color: var( --e-global-color-6b6f2ff);
+    color: var(--e-global-color-6b6f2ff);
     font-size: 18px;
     font-weight: normal;
     text-transform: none;
@@ -492,9 +492,9 @@
     font-style: normal;
     text-decoration: none;
     line-height: 28px;
-    fill: var( --e-global-color-8310766);
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-primary) 0%, var( --e-global-color-secondary) 100%);
+    fill: var(--e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-primary) 0%, var(--e-global-color-secondary) 100%);
     border-radius: 30px 30px 30px 30px;
     padding: 14px 30px 13px 30px;
 }
@@ -502,8 +502,8 @@
 .elementor-7681 .elementor-element.elementor-element-74edc61f .elementor-button:hover,
 .elementor-7681 .elementor-element.elementor-element-74edc61f .elementor-button:focus {
     background-color: transparent;
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-text) 0%, var( --e-global-color-text) 100%);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-text) 0%, var(--e-global-color-text) 100%);
 }
 
 .elementor-7681 .elementor-element.elementor-element-74edc61f {
@@ -525,7 +525,7 @@
 
 .elementor-7681 .elementor-element.elementor-element-74edc61f .elementor-button:hover svg,
 .elementor-7681 .elementor-element.elementor-element-74edc61f .elementor-button:focus svg {
-    fill: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
 }
 
 .elementor-7681 .elementor-element.elementor-element-063c016 .elementor-button {
@@ -536,9 +536,9 @@
     font-style: normal;
     text-decoration: none;
     line-height: 28px;
-    fill: var( --e-global-color-8310766);
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-primary) 0%, var( --e-global-color-secondary) 100%);
+    fill: var(--e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-primary) 0%, var(--e-global-color-secondary) 100%);
     border-radius: 30px 30px 30px 30px;
     padding: 14px 30px 13px 30px;
 }
@@ -546,8 +546,8 @@
 .elementor-7681 .elementor-element.elementor-element-063c016 .elementor-button:hover,
 .elementor-7681 .elementor-element.elementor-element-063c016 .elementor-button:focus {
     background-color: transparent;
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-text) 0%, var( --e-global-color-text) 100%);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-text) 0%, var(--e-global-color-text) 100%);
 }
 
 .elementor-7681 .elementor-element.elementor-element-063c016 {
@@ -569,7 +569,7 @@
 
 .elementor-7681 .elementor-element.elementor-element-063c016 .elementor-button:hover svg,
 .elementor-7681 .elementor-element.elementor-element-063c016 .elementor-button:focus svg {
-    fill: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
 }
 
 .elementor-7681 .elementor-element.elementor-element-23935fb .elementor-button {
@@ -580,9 +580,9 @@
     font-style: normal;
     text-decoration: none;
     line-height: 28px;
-    fill: var( --e-global-color-8310766);
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-primary) 0%, var( --e-global-color-secondary) 100%);
+    fill: var(--e-global-color-8310766);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-primary) 0%, var(--e-global-color-secondary) 100%);
     border-radius: 30px 30px 30px 30px;
     padding: 14px 30px 13px 30px;
 }
@@ -590,8 +590,8 @@
 .elementor-7681 .elementor-element.elementor-element-23935fb .elementor-button:hover,
 .elementor-7681 .elementor-element.elementor-element-23935fb .elementor-button:focus {
     background-color: transparent;
-    color: var( --e-global-color-8310766);
-    background-image: linear-gradient(180deg, var( --e-global-color-text) 0%, var( --e-global-color-text) 100%);
+    color: var(--e-global-color-8310766);
+    background-image: linear-gradient(180deg, var(--e-global-color-text) 0%, var(--e-global-color-text) 100%);
 }
 
 .elementor-7681 .elementor-element.elementor-element-23935fb {
@@ -613,13 +613,14 @@
 
 .elementor-7681 .elementor-element.elementor-element-23935fb .elementor-button:hover svg,
 .elementor-7681 .elementor-element.elementor-element-23935fb .elementor-button:focus svg {
-    fill: var( --e-global-color-8310766);
+    fill: var(--e-global-color-8310766);
 }
 
 @media(min-width:768px) {
     .elementor-7681 .elementor-element.elementor-element-849c619 {
         width: 100%;
     }
+
     .elementor-7681 .elementor-element.elementor-element-584dcbbf {
         width: 100%;
     }
@@ -629,6 +630,7 @@
     .elementor-7681 .elementor-element.elementor-element-6b62a1f8 {
         width: 62%;
     }
+
     .elementor-7681 .elementor-element.elementor-element-4004e377 {
         width: 38%;
     }
@@ -638,99 +640,124 @@
     .elementor-7681 .elementor-element.elementor-element-3bd5d874 {
         padding: 80px 0px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-4765fc86 {
         padding: 0px 20px 0px 20px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-92ccb3b .elementor-heading-title {
         font-size: 50px;
         line-height: 60px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-7c93177d {
         font-size: 16px;
         line-height: 24px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-59b029e3>.elementor-widget-container {
         padding: 0px 5px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-59b029e3 .elementor-button {
         font-size: 16px;
         line-height: 24px;
         padding: 10px 030px 11px 030px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-2316559>.elementor-widget-container {
         padding: 10px 5px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-2316559 .elementor-button {
         font-size: 16px;
         line-height: 24px;
         padding: 10px 030px 11px 030px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-eb86116>.elementor-widget-container {
         padding: 10px 5px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-eb86116 .elementor-button {
         font-size: 16px;
         line-height: 24px;
         padding: 10px 030px 11px 030px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-f9cf5f1>.elementor-widget-container {
         padding: 10px 5px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-f9cf5f1 .elementor-button {
         font-size: 16px;
         line-height: 24px;
         padding: 10px 030px 11px 030px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-4004e377>.elementor-element-populated {
         padding: 0px 0px 0px 45px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-0115a03 {
         padding: 50px 0px 20px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-60583dc>.elementor-widget-container {
         margin: 0px 0px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-60583dc .elementor-heading-title {
         font-size: 37px;
         line-height: 52px;
         letter-spacing: -0.4px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-516f75c6 {
         padding: 50px 20px 80px 20px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-32fcfc91 .elementor-heading-title {
         font-size: 37px;
         line-height: 52px;
         letter-spacing: -0.4px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-accordion-title {
         font-size: 22px;
         line-height: 31px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-tab-content {
         font-size: 16px;
         line-height: 24px;
         padding: 0px 10px 20px 10px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-74edc61f>.elementor-widget-container {
         padding: 30px 0px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-74edc61f .elementor-button {
         font-size: 16px;
         line-height: 24px;
         padding: 10px 030px 11px 030px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-063c016>.elementor-widget-container {
         padding: 30px 0px 0px 10px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-063c016 .elementor-button {
         font-size: 16px;
         line-height: 24px;
         padding: 10px 030px 11px 030px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-23935fb>.elementor-widget-container {
         padding: 30px 0px 0px 10px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-23935fb .elementor-button {
         font-size: 16px;
         line-height: 24px;
@@ -742,90 +769,116 @@
     .elementor-7681 .elementor-element.elementor-element-6b62a1f8.elementor-column>.elementor-widget-wrap {
         justify-content: flex-start;
     }
+
     .elementor-7681 .elementor-element.elementor-element-6b62a1f8>.elementor-element-populated {
         padding: 0px 0px 45px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-92ccb3b {
-        width: var( --container-widget-width, 80%);
+        width: var(--container-widget-width, 80%);
         max-width: 80%;
         --container-widget-width: 80%;
         --container-widget-flex-grow: 0;
         text-align: left;
     }
+
     .elementor-7681 .elementor-element.elementor-element-92ccb3b .elementor-heading-title {
         font-size: 37px;
         line-height: 52px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-7c93177d {
-        width: var( --container-widget-width, 90%);
+        width: var(--container-widget-width, 90%);
         max-width: 90%;
         --container-widget-width: 90%;
         --container-widget-flex-grow: 0;
         text-align: left;
     }
+
     .elementor-7681 .elementor-element.elementor-element-59b029e3>.elementor-widget-container {
         padding: 0px 10px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-59b029e3 .elementor-button {
         padding: 10px 20px 11px 25px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-2316559>.elementor-widget-container {
         padding: 10px 10px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-2316559 .elementor-button {
         padding: 10px 20px 11px 25px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-eb86116>.elementor-widget-container {
         padding: 10px 10px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-eb86116 .elementor-button {
         padding: 10px 20px 11px 25px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-f9cf5f1>.elementor-widget-container {
         padding: 10px 10px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-f9cf5f1 .elementor-button {
         padding: 10px 20px 11px 25px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-4004e377>.elementor-element-populated {
         padding: 0px 0px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-0115a03 {
         padding: 50px 0px 20px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-60583dc>.elementor-widget-container {
         padding: 0px 0px 15px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-60583dc {
         text-align: center;
     }
+
     .elementor-7681 .elementor-element.elementor-element-516f75c6 {
         padding: 60px 20px 80px 20px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-32fcfc91>.elementor-widget-container {
         padding: 0px 0px 30px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-32fcfc91 {
         text-align: center;
     }
+
     .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-tab-title {
         padding: 30px 00px 30px 00px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-74edc61f>.elementor-widget-container {
         padding: 30px 0px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-74edc61f .elementor-button {
         padding: 10px 20px 11px 25px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-063c016>.elementor-widget-container {
         padding: 30px 0px 0px 10px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-063c016 .elementor-button {
         padding: 10px 20px 11px 25px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-23935fb>.elementor-widget-container {
         padding: 30px 0px 0px 10px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-23935fb .elementor-button {
         padding: 10px 20px 11px 25px;
     }
@@ -837,122 +890,155 @@
         margin-bottom: 0px;
         padding: 0px 0px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-4765fc86 {
         padding: 20px 20px 20px 20px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-92ccb3b>.elementor-widget-container {
         padding: 30px 0px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-92ccb3b {
         --container-widget-width: 100%;
         --container-widget-flex-grow: 0;
-        width: var( --container-widget-width, 100%);
+        width: var(--container-widget-width, 100%);
         max-width: 100%;
     }
+
     .elementor-7681 .elementor-element.elementor-element-92ccb3b .elementor-heading-title {
         font-size: 30px;
         line-height: 36px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-7c93177d {
         --container-widget-width: 100%;
         --container-widget-flex-grow: 0;
-        width: var( --container-widget-width, 100%);
+        width: var(--container-widget-width, 100%);
         max-width: 100%;
     }
+
     .elementor-7681 .elementor-element.elementor-element-59b029e3 {
         width: 100%;
         max-width: 100%;
     }
+
     .elementor-7681 .elementor-element.elementor-element-59b029e3>.elementor-widget-container {
         padding: 0px 0px 10px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-2316559 {
         width: 100%;
         max-width: 100%;
     }
+
     .elementor-7681 .elementor-element.elementor-element-2316559>.elementor-widget-container {
         padding: 0px 0px 10px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-2316559 .elementor-button {
         padding: 10px 10px 10px 10px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-eb86116 {
         width: 100%;
         max-width: 100%;
     }
+
     .elementor-7681 .elementor-element.elementor-element-eb86116>.elementor-widget-container {
         padding: 0px 0px 10px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-eb86116 .elementor-button {
         padding: 10px 10px 10px 10px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-f9cf5f1 {
         width: 100%;
         max-width: 100%;
     }
+
     .elementor-7681 .elementor-element.elementor-element-f9cf5f1>.elementor-widget-container {
         padding: 0px 0px 10px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-f9cf5f1 .elementor-button {
         padding: 10px 10px 10px 10px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-0115a03 {
         padding: 20px 20px 20px 20px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-60583dc {
         text-align: left;
     }
+
     .elementor-7681 .elementor-element.elementor-element-60583dc .elementor-heading-title {
         font-size: 26px;
         line-height: 36px;
         letter-spacing: -0.5px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-d532b8c>.elementor-widget-container {
         margin: 0vw 0vw 0vw 0vw;
         padding: 0px 0px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-516f75c6 {
         padding: 60px 20px 80px 20px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-32fcfc91 {
         text-align: left;
     }
+
     .elementor-7681 .elementor-element.elementor-element-32fcfc91 .elementor-heading-title {
         font-size: 26px;
         line-height: 36px;
         letter-spacing: -0.5px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-accordion-title {
         font-size: 18px;
         line-height: 28px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-898c808 .elementor-tab-title {
         padding: 25px 0px 25px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-74edc61f {
         width: 100%;
         max-width: 100%;
     }
+
     .elementor-7681 .elementor-element.elementor-element-74edc61f>.elementor-widget-container {
         padding: 30px 0px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-063c016 {
         width: 100%;
         max-width: 100%;
     }
+
     .elementor-7681 .elementor-element.elementor-element-063c016>.elementor-widget-container {
         padding: 10px 0px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-063c016 .elementor-button {
         padding: 10px 10px 10px 10px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-23935fb {
         width: 100%;
         max-width: 100%;
     }
+
     .elementor-7681 .elementor-element.elementor-element-23935fb>.elementor-widget-container {
         padding: 10px 0px 0px 0px;
     }
+
     .elementor-7681 .elementor-element.elementor-element-23935fb .elementor-button {
         padding: 10px 10px 10px 10px;
     }
@@ -1069,6 +1155,7 @@ div[id^='wpsm_accordion_'] .wpsm_panel-default {
     .serv-dp .dce-post-item {
         width: 100% !important;
     }
+
     .serv-dp .dce-post-item:not(:first-child) {
         margin: 0 !important;
         display: flex !important;
@@ -1077,6 +1164,7 @@ div[id^='wpsm_accordion_'] .wpsm_panel-default {
 }
 
 @media screen and (max-width:1200px) {
+
     .dce-dynamic-posts-collection.no-masking-yes,
     .dce-dynamic-posts-collection.no-masking-yes .swiper-container,
     .dce-dynamic-posts-collection.no-masking-yes .swiper,
