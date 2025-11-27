@@ -1137,7 +1137,7 @@
                 font-size: 24px;
             }
         }
-    
+
         /* Mobile Menu Popup Styles */
         .elementor-5992 .hfe-nav-menu {
             list-style: none;
@@ -1193,7 +1193,6 @@
             cursor: pointer;
             z-index: 10000;
         }
-
     </style>
     <script>
         // Contact Form Handler for Web3Forms
@@ -1585,11 +1584,11 @@
                                                     data-id="ccf13ab" data-element_type="widget"
                                                     data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                
+
 
                                                         <p><a href="/privacy-policy">Privacy Policy</a></p>
                                                         <p><a href="/terms-of-use">Terms of Use</a><br /><br /><a
-                                                                href="/reserve-and-walk-in/">Reserve
+                                                                href="/contact-us/">Reserve
                                                                 &amp; Walk In</a></p>
                                                         <p><a href="tel:+12049639590">Contact: +1 (204) 963-9590</a>
                                                         </p>
@@ -1732,7 +1731,10 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#2F6AA8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="cursor: pointer;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                            viewBox="0 0 24 24" fill="none" stroke="#2F6AA8"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" style="cursor: pointer;">
                                                             <line x1="18" y1="6" x2="6" y2="18"></line>
                                                             <line x1="6" y1="6" x2="18" y2="18"></line>
                                                         </svg>
@@ -3462,11 +3464,11 @@
 
     <script>
         // Mobile Hamburger Menu Popup Handler
-        jQuery(document).ready(function($) {
+        jQuery(document).ready(function ($) {
             // Handle hamburger menu click
-            $('.elementor-element-16f8386 .elementor-icon').on('click', function(e) {
+            $('.elementor-element-16f8386 .elementor-icon').on('click', function (e) {
                 e.preventDefault();
-                
+
                 // Show the popup
                 var popup = $('.elementor-5992');
                 if (popup.length) {
@@ -3474,7 +3476,7 @@
                     if (!$('.mobile-menu-overlay').length) {
                         $('body').append('<div class="mobile-menu-overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 9998; display: none;"></div>');
                     }
-                    
+
                     // Show overlay and popup
                     $('.mobile-menu-overlay').fadeIn(300);
                     popup.css({
@@ -3487,40 +3489,40 @@
                         'z-index': '9999',
                         'overflow-y': 'auto'
                     }).addClass('elementor-popup-active');
-                    
+
                     // Prevent body scroll
                     $('body').css('overflow', 'hidden');
                 }
             });
-            
+
             // Close popup when clicking overlay
-            $(document).on('click', '.mobile-menu-overlay', function() {
+            $(document).on('click', '.mobile-menu-overlay', function () {
                 closePopup();
             });
-            
+
             // Close popup when clicking the close button (X icon)
-            $(document).on('click', '.mobile-menu-close-btn, .elementor-element-2175b30', function(e) {
+            $(document).on('click', '.mobile-menu-close-btn, .elementor-element-2175b30', function (e) {
                 e.preventDefault();
                 closePopup();
             });
-            
+
             // Close popup when clicking a menu item
-            $('.elementor-5992 .hfe-menu-item').on('click', function() {
+            $('.elementor-5992 .hfe-menu-item').on('click', function () {
                 // Let the link navigate, but close the popup first
                 setTimeout(closePopup, 100);
             });
-            
+
             // Function to close popup
             function closePopup() {
                 $('.mobile-menu-overlay').fadeOut(300);
-                $('.elementor-5992').fadeOut(300, function() {
+                $('.elementor-5992').fadeOut(300, function () {
                     $(this).removeClass('elementor-popup-active');
                 });
                 $('body').css('overflow', '');
             }
-            
+
             // Close on escape key
-            $(document).on('keydown', function(e) {
+            $(document).on('keydown', function (e) {
                 if (e.key === 'Escape' && $('.elementor-5992').hasClass('elementor-popup-active')) {
                     closePopup();
                 }
