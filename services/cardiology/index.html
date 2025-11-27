@@ -628,7 +628,64 @@
 		.postid-17340 .cu-pu-rt p {
 			display: none;
 		}
-	</style>
+	
+        /* Mobile Menu Popup Styles */
+        .elementor-5992 .hfe-nav-menu {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .elementor-5992 .hfe-nav-menu li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .elementor-5992 .hfe-nav-menu .hfe-menu-item {
+            display: block;
+            padding: 15px 20px;
+            color: #2F6AA8;
+            font-size: 18px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border-bottom: 1px solid rgba(47, 106, 168, 0.1);
+        }
+
+        .elementor-5992 .hfe-nav-menu .hfe-menu-item:hover {
+            background-color: rgba(47, 106, 168, 0.1);
+            color: #00d084;
+            padding-left: 30px;
+        }
+
+        .elementor-5992 .c-menu {
+            width: 100%;
+        }
+
+        .elementor-5992 nav.hfe-nav-menu__layout-horizontal {
+            display: block !important;
+        }
+
+        /* Hide popup by default */
+        .elementor-5992 {
+            display: none;
+        }
+
+        /* Popup active state */
+        .elementor-5992.elementor-popup-active {
+            display: block !important;
+        }
+
+        /* Close icon for popup */
+        .elementor-5992 .elementor-element-2175b30 {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+            z-index: 10000;
+        }
+
+    </style>
 	<link rel="icon" href="../../public/images/favicon.ico" type="image/x-icon" />
 </head>
 
@@ -1667,13 +1724,16 @@
 								<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-0692d23"
 									data-id="0692d23" data-element_type="column">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-2175b30 elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon"
+										<div class="elementor-element elementor-element-2175b30 elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon mobile-menu-close-btn"
 											data-id="2175b30" data-element_type="widget"
 											data-widget_type="icon.default">
 											<div class="elementor-widget-container">
 												<div class="elementor-icon-wrapper">
 													<div class="elementor-icon">
-														<i aria-hidden="true" class="fas fa-map-marker-alt"></i>
+														<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#2F6AA8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="cursor: pointer;">
+                                                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                                                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                                                        </svg>
 													</div>
 												</div>
 											</div>
@@ -1894,6 +1954,76 @@
 			});
 		});
 	</script>
+
+
+    <script>
+        // Mobile Hamburger Menu Popup Handler
+        jQuery(document).ready(function($) {
+            // Handle hamburger menu click
+            $('.elementor-element-16f8386 .elementor-icon').on('click', function(e) {
+                e.preventDefault();
+                
+                // Show the popup
+                var popup = $('.elementor-5992');
+                if (popup.length) {
+                    // Add overlay if it doesn't exist
+                    if (!$('.mobile-menu-overlay').length) {
+                        $('body').append('<div class="mobile-menu-overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 9998; display: none;"></div>');
+                    }
+                    
+                    // Show overlay and popup
+                    $('.mobile-menu-overlay').fadeIn(300);
+                    popup.css({
+                        'display': 'block',
+                        'position': 'fixed',
+                        'top': '0',
+                        'left': '0',
+                        'width': '100%',
+                        'height': '100%',
+                        'z-index': '9999',
+                        'overflow-y': 'auto'
+                    }).addClass('elementor-popup-active');
+                    
+                    // Prevent body scroll
+                    $('body').css('overflow', 'hidden');
+                }
+            });
+            
+            // Close popup when clicking overlay
+            $(document).on('click', '.mobile-menu-overlay', function() {
+                closePopup();
+            });
+            
+            // Close popup when clicking the close button (X icon)
+            $(document).on('click', '.mobile-menu-close-btn, .elementor-element-2175b30', function(e) {
+                e.preventDefault();
+                closePopup();
+            });
+            
+            // Close popup when clicking a menu item
+            $('.elementor-5992 .hfe-menu-item').on('click', function() {
+                // Let the link navigate, but close the popup first
+                setTimeout(closePopup, 100);
+            });
+            
+            // Function to close popup
+            function closePopup() {
+                $('.mobile-menu-overlay').fadeOut(300);
+                $('.elementor-5992').fadeOut(300, function() {
+                    $(this).removeClass('elementor-popup-active');
+                });
+                $('body').css('overflow', '');
+            }
+            
+            // Close on escape key
+            $(document).on('keydown', function(e) {
+                if (e.key === 'Escape' && $('.elementor-5992').hasClass('elementor-popup-active')) {
+                    closePopup();
+                }
+            });
+        });
+    </script>
+
 </body>
 
 </html>
