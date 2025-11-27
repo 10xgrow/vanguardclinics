@@ -9835,14 +9835,41 @@
     </script>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const services = [{ "name": "Acupuncture", "url": "/services/acupuncture/" }, { "name": "Aesthetics", "url": "/services/aesthetics/" }, { "name": "Allied Health", "url": "/services/allied-health/" }, { "name": "Attention Difficulties ADHD", "url": "/services/attention-difficulties-adhd/" }, { "name": "Behavioural Issues and Development Delay", "url": "/services/behavioural-issues-development-delay/" }, { "name": "Bone Density", "url": "/services/bone-density/" }, { "name": "Cardiology", "url": "/services/cardiology/" }, { "name": "Childrens Urgent Care", "url": "/services/childrens-urgent-care/" }, { "name": "Chiropractic", "url": "/services/chiropractic/" }, { "name": "Custom Orthotics", "url": "/services/custom-orthotics/" }, { "name": "Day Surgery", "url": "/services/day-surgery/" }, { "name": "Dermatology", "url": "/services/dermatology/" }, { "name": "Diagnostic Imaging", "url": "/services/diagnostic-imaging/" }, { "name": "Diet and Nutrition", "url": "/services/diet-nutrition/" }, { "name": "Doctor's Notes", "url": "/services/doctors-notes/" }, { "name": "EKG Walk-In", "url": "/services/ekg-walk-in/" }, { "name": "Echocardiography", "url": "/services/echocardiography/" }, { "name": "Endocrinology", "url": "/services/endocrinology/" }, { "name": "Excision and Biopsy", "url": "/services/excision-and-biopsy/" }, { "name": "Family Practice", "url": "/services/family-practice/" }, { "name": "Fast Track", "url": "/services/fast-track/" }, { "name": "Gastroenterology", "url": "/services/gastroenterology/" }, { "name": "Geriatrics", "url": "/services/geriatrics/" }, { "name": "Gynecology", "url": "/services/gynecology/" }, { "name": "Hemorrhoid Treatment Centres", "url": "/services/hemorrhoid-treatment-centres/" }, { "name": "ICBC and WorkSafeBC", "url": "/services/icbc-worksafebc/" }, { "name": "Immunology and Allergy", "url": "/services/immunology-allergy/" }];
+    document.addEventListener('DOMContentLoaded', function () {
+        const services = [
+            { "name": "Acupuncture", "url": "/services/acupuncture/" },
+            { "name": "Aesthetics", "url": "/services/aesthetics/" },
+            { "name": "Allied Health", "url": "/services/allied-health/" },
+            { "name": "Attention Difficulties ADHD", "url": "/services/attention-difficulties-adhd/" },
+            { "name": "Behavioural Issues and Development Delay", "url": "/services/behavioural-issues-development-delay/" },
+            { "name": "Bone Density", "url": "/services/bone-density/" },
+            { "name": "Cardiology", "url": "/services/cardiology/" },
+            { "name": "Childrens Urgent Care", "url": "/services/childrens-urgent-care/" },
+            { "name": "Chiropractic", "url": "/services/chiropractic/" },
+            { "name": "Custom Orthotics", "url": "/services/custom-orthotics/" },
+            { "name": "Day Surgery", "url": "/services/day-surgery/" },
+            { "name": "Dermatology", "url": "/services/dermatology/" },
+            { "name": "Diagnostic Imaging", "url": "/services/diagnostic-imaging/" },
+            { "name": "Diet and Nutrition", "url": "/services/diet-nutrition/" },
+            { "name": "Doctor's Notes", "url": "/services/doctors-notes/" },
+            { "name": "EKG Walk-In", "url": "/services/ekg-walk-in/" },
+            { "name": "Echocardiography", "url": "/services/echocardiography/" },
+            { "name": "Endocrinology", "url": "/services/endocrinology/" },
+            { "name": "Excision and Biopsy", "url": "/services/excision-and-biopsy/" },
+            { "name": "Family Practice", "url": "/services/family-practice/" },
+            { "name": "Fast Track", "url": "/services/fast-track/" },
+            { "name": "Gastroenterology", "url": "/services/gastroenterology/" },
+            { "name": "Geriatrics", "url": "/services/geriatrics/" },
+            { "name": "Gynecology", "url": "/services/gynecology/" },
+            { "name": "Hemorrhoid Treatment Centres", "url": "/services/hemorrhoid-treatment-centres/" },
+            { "name": "ICBC and WorkSafeBC", "url": "/services/icbc-worksafebc/" },
+            { "name": "Immunology and Allergy", "url": "/services/immunology-allergy/" }
+        ];
 
-            const searchInput = document.getElementById('vc-hero-service-search');
-            const resultsContainer = document.getElementById('vc-hero-search-results');
+        const searchInput = document.getElementById('vc-hero-service-search');
+        const resultsContainer = document.getElementById('vc-hero-search-results');
 
-            if (!searchInput || !resultsContainer) return;
-
+        if (searchInput && resultsContainer) {
             searchInput.addEventListener('input', function () {
                 const query = this.value.toLowerCase().trim();
                 resultsContainer.innerHTML = '';
@@ -9873,92 +9900,91 @@
                     resultsContainer.classList.add('active');
                 }
             });
+        }
 
-            // Close results when clicking outside
-            document.addEventListener('click', function (e) {
-                if (smallCarousel && typeof Swiper !== 'undefined') {
-                    setTimeout(function () {
-                        if (smallCarousel.swiper) {
-                            // Fix the swiper instance
-                            var swiper = smallCarousel.swiper;
-                            // Ensure it's horizontal
-                            swiper.params.direction = 'horizontal';
-                            swiper.params.slidesPerView = 1;
-                            swiper.params.loop = true;
-                            // Fix autoplay
-                            if (!swiper.params.autoplay) {
-                                swiper.params.autoplay = {
-                                    delay: 3200,
-                                    disableOnInteraction: false,
-                                    pauseOnMouseEnter: false
-                                };
-                            }
-                            // Update and restart
-                            swiper.update();
-                            if (swiper.autoplay) {
-                                swiper.autoplay.stop();
-                                swiper.autoplay.start();
-                            }
-                            // Force update slides position
-                            swiper.slideTo(0, 0);
-                        }
-                    }, 2500);
+        // Reusable function to fix Swiper instances for hero carousels.
+        function fixHeroCarousels() {
+            try {
+                if (typeof Swiper === 'undefined') return;
+
+                // Try a selector for a "small" carousel — adjust if your markup differs
+                const smallCarouselEl = document.querySelector('.vc-small-carousel .swiper') || document.querySelector('.elementor-image-carousel-wrapper.swiper.small') || null;
+                if (smallCarouselEl && smallCarouselEl.swiper) {
+                    const swiper = smallCarouselEl.swiper;
+                    swiper.params.direction = 'horizontal';
+                    swiper.params.slidesPerView = 1;
+                    swiper.params.loop = true;
+                    if (!swiper.params.autoplay) {
+                        swiper.params.autoplay = {
+                            delay: 3200,
+                            disableOnInteraction: false,
+                            pauseOnMouseEnter: false
+                        };
+                    }
+                    swiper.update();
+                    if (swiper.autoplay) {
+                        swiper.autoplay.stop();
+                        swiper.autoplay.start();
+                    }
+                    swiper.slideTo(0, 0);
                 }
 
-                // Big carousel (39c7c94)
-                var bigCarousel = document.querySelector('.elementor-element-39c7c94 .elementor-image-carousel-wrapper.swiper');
-                if (bigCarousel && typeof Swiper !== 'undefined') {
-                    setTimeout(function () {
-                        if (bigCarousel.swiper) {
-                            // Fix the swiper instance
-                            var swiper = bigCarousel.swiper;
-                            // Ensure it's horizontal
-                            swiper.params.direction = 'horizontal';
-                            swiper.params.slidesPerView = 1;
-                            swiper.params.loop = true;
-                            // Fix autoplay
-                            if (!swiper.params.autoplay) {
-                                swiper.params.autoplay = {
-                                    delay: 3200,
-                                    disableOnInteraction: false,
-                                    pauseOnMouseEnter: false
-                                };
-                            }
-                            // Update and restart
-                            swiper.update();
-                            if (swiper.autoplay) {
-                                swiper.autoplay.stop();
-                                swiper.autoplay.start();
-                            }
-                            // Force update slides position
-                            swiper.slideTo(0, 0);
-                        }
-                    }, 2500);
+                // Big carousel (specific elementor element)
+                const bigCarouselEl = document.querySelector('.elementor-element-39c7c94 .elementor-image-carousel-wrapper.swiper');
+                if (bigCarouselEl && bigCarouselEl.swiper) {
+                    const swiper = bigCarouselEl.swiper;
+                    swiper.params.direction = 'horizontal';
+                    swiper.params.slidesPerView = 1;
+                    swiper.params.loop = true;
+                    if (!swiper.params.autoplay) {
+                        swiper.params.autoplay = {
+                            delay: 3200,
+                            disableOnInteraction: false,
+                            pauseOnMouseEnter: false
+                        };
+                    }
+                    swiper.update();
+                    if (swiper.autoplay) {
+                        swiper.autoplay.stop();
+                        swiper.autoplay.start();
+                    }
+                    swiper.slideTo(0, 0);
+                }
+            } catch (err) {
+                // Silent fail — do not break page
+                console.warn('fixHeroCarousels error:', err);
+            }
+        }
+
+        // Close results / also run fixes when clicking outside search
+        document.addEventListener('click', function (e) {
+            // If click outside search input + results, hide results
+            if (searchInput && resultsContainer) {
+                const target = e.target;
+                if (!searchInput.contains(target) && !resultsContainer.contains(target)) {
+                    resultsContainer.classList.remove('active');
+                    // keep container cleared optionally:
+                    // resultsContainer.innerHTML = '';
                 }
             }
 
-            // Wait for Elementor to initialize first
-            if (document.readyState === 'loading') {
-                document.addEventListener('DOMContentLoaded', function () {
-                    setTimeout(fixHeroCarousels, 1500);
-                });
-            } else {
-                setTimeout(fixHeroCarousels, 1500);
-            }
+            // Run carousel fix after user interactions (delayed to let elementor/Swiper finish any internal tasks)
+            setTimeout(fixHeroCarousels, 2500);
+        });
 
-            // Also try after Elementor is ready
-            if (typeof elementorFrontend !== 'undefined') {
-                elementorFrontend.hooks.addAction('frontend/element_ready/global', function () {
-                    setTimeout(fixHeroCarousels, 2000);
-                });
-            }
+        // Wait for Elementor and other things to initialize, then try fixes multiple times / hooks
+        setTimeout(fixHeroCarousels, 1500);
 
-            // Fallback: try after window load
-            window.addEventListener('load', function () {
-                setTimeout(fixHeroCarousels, 2500);
+        if (typeof elementorFrontend !== 'undefined' && elementorFrontend.hooks && elementorFrontend.hooks.addAction) {
+            elementorFrontend.hooks.addAction('frontend/element_ready/global', function () {
+                setTimeout(fixHeroCarousels, 2000);
             });
-        })();
+        }
 
+        window.addEventListener('load', function () {
+            setTimeout(fixHeroCarousels, 2500);
+        });
+    });
     </script>
 
     <script>
