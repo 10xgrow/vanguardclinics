@@ -1,0 +1,327 @@
+/* Opportunities Page Custom Styles */
+
+/* Hero Section */
+.elementor-element-c0dd393 {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+.elementor-element-c0dd393 .elementor-background-overlay {
+    opacity: 0.05;
+}
+
+.elementor-element-b3c7c2a h1 {
+    color: #2F6AA8;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Image Carousel Styling */
+.opp-car1 .swiper-slide,
+.opp-car2 .swiper-slide {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.opp-car1 .swiper-slide-image,
+.opp-car2 .swiper-slide-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.opp-car1 .swiper-slide:hover .swiper-slide-image,
+.opp-car2 .swiper-slide:hover .swiper-slide-image {
+    transform: scale(1.05);
+}
+
+/* Button Styling */
+.elementor-element-0a09392 .elementor-button,
+.elementor-element-9a27eb0 .elementor-button,
+.elementor-element-59259a8 .elementor-button,
+.elementor-element-14c1812 .elementor-button {
+    background-color: #2F6AA8;
+    color: #ffffff;
+    padding: 18px 35px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: none;
+    transition: all 0.3s ease;
+    border: 2px solid #2F6AA8;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.elementor-element-0a09392 .elementor-button:hover,
+.elementor-element-9a27eb0 .elementor-button:hover,
+.elementor-element-59259a8 .elementor-button:hover,
+.elementor-element-14c1812 .elementor-button:hover {
+    background-color: #ffffff;
+    color: #2F6AA8;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(47, 106, 168, 0.3);
+}
+
+.elementor-button-icon {
+    transition: transform 0.3s ease;
+}
+
+.elementor-button:hover .elementor-button-icon {
+    transform: translateX(5px);
+}
+
+/* Blue Section */
+.elementor-element-862c2f8 {
+    background-color: #E8F1F8;
+    padding: 80px 0;
+}
+
+.elementor-element-862c2f8 .elementor-background-overlay {
+    opacity: 0.03;
+}
+
+.elementor-element-1fd7904 h2 {
+    color: #2F6AA8;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.elementor-element-5365467 h3 {
+    color: #2F6AA8;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Feature Cards */
+.elementor-element-8b822c4,
+.elementor-element-25ae7fc,
+.elementor-element-993bdc8,
+.elementor-element-afec5d9,
+.elementor-element-805c00e,
+.elementor-element-30be819 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 40px 30px;
+    margin: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.elementor-element-8b822c4:hover,
+.elementor-element-25ae7fc:hover,
+.elementor-element-993bdc8:hover,
+.elementor-element-afec5d9:hover,
+.elementor-element-805c00e:hover,
+.elementor-element-30be819:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.elementor-element-8b822c4 h4,
+.elementor-element-25ae7fc h4,
+.elementor-element-993bdc8 h4,
+.elementor-element-afec5d9 h4,
+.elementor-element-805c00e h4,
+.elementor-element-30be819 h4 {
+    color: #2F6AA8;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 20px 0 15px 0;
+}
+
+.elementor-element-8b822c4 p,
+.elementor-element-25ae7fc p,
+.elementor-element-993bdc8 p,
+.elementor-element-afec5d9 p,
+.elementor-element-805c00e p,
+.elementor-element-30be819 p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Icon Styling */
+.elementor-element-4d8cc03 img,
+.elementor-element-c163739 img,
+.elementor-element-317bc79 img,
+.elementor-element-2d6e178 img,
+.elementor-element-7c3fc22 img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* White Section with Image Backgrounds */
+.elementor-element-af22377 {
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+
+.elementor-element-af22377 .elementor-background-overlay {
+    opacity: 0.05;
+}
+
+.elementor-element-2c3adaa h5,
+.elementor-element-57bf384 h5,
+.elementor-element-106b7e4 h5,
+.elementor-element-5b6e716 h5 {
+    color: #2F6AA8;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.elementor-element-a54126f p,
+.elementor-element-5049694 p,
+.elementor-element-0b28985 p,
+.elementor-element-c47a3bc p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Image Background Columns */
+.elementor-element-3db9fbb,
+.elementor-element-6c21f02,
+.elementor-element-6350c31 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    border-radius: 12px;
+}
+
+.elementor-element-7f9adc2,
+.elementor-element-a0a6583,
+.elementor-element-30f266a,
+.elementor-element-7bd1e1d {
+    background-color: #ffffff;
+    padding: 50px 40px;
+    border-radius: 12px;
+}
+
+/* Canucks Logo Section */
+.elementor-element-30be819 {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.elementor-element-d176412 img {
+    max-width: 282px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.elementor-element-8dad776 h4 {
+    color: #2F6AA8;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .elementor-element-b3c7c2a h1 {
+        font-size: 36px;
+    }
+    
+    .elementor-element-1fd7904 h2 {
+        font-size: 28px;
+    }
+    
+    .elementor-element-5365467 h3 {
+        font-size: 24px;
+    }
+    
+    .elementor-element-2c3adaa h5,
+    .elementor-element-57bf384 h5,
+    .elementor-element-106b7e4 h5,
+    .elementor-element-5b6e716 h5 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 768px) {
+    .elementor-element-c0dd393,
+    .elementor-element-862c2f8,
+    .elementor-element-af22377 {
+        padding: 50px 0;
+    }
+    
+    .elementor-element-b3c7c2a h1 {
+        font-size: 28px;
+    }
+    
+    .elementor-element-1fd7904 h2 {
+        font-size: 24px;
+    }
+    
+    .elementor-element-5365467 h3 {
+        font-size: 20px;
+    }
+    
+    .elementor-element-2c3adaa h5,
+    .elementor-element-57bf384 h5,
+    .elementor-element-106b7e4 h5,
+    .elementor-element-5b6e716 h5 {
+        font-size: 22px;
+    }
+    
+    .elementor-element-8b822c4,
+    .elementor-element-25ae7fc,
+    .elementor-element-993bdc8,
+    .elementor-element-afec5d9,
+    .elementor-element-805c00e,
+    .elementor-element-30be819 {
+        margin: 10px 0;
+        padding: 30px 20px;
+    }
+    
+    .elementor-element-3db9fbb,
+    .elementor-element-6c21f02,
+    .elementor-element-6350c31 {
+        min-height: 250px;
+    }
+    
+    .elementor-element-7f9adc2,
+    .elementor-element-a0a6583,
+    .elementor-element-30f266a,
+    .elementor-element-7bd1e1d {
+        padding: 30px 20px;
+    }
+}
+
+/* Container Spacing */
+.elementor-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Smooth Transitions */
+* {
+    transition: all 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Accessibility */
+.elementor-button:focus,
+a:focus {
+    outline: 2px solid #2F6AA8;
+    outline-offset: 2px;
+}
