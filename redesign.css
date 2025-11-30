@@ -498,3 +498,12 @@ body.menu-open {
     text-align: center;
     font-size: 14px;
 }
+
+/* Footer Logo */
+.footer-logo {
+    height: 60px;
+    width: auto;
+    margin-bottom: 16px;
+    filter: brightness(0) invert(1);
+    /* Make logo white for dark footer */
+}

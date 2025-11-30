@@ -137,7 +137,7 @@
 	<footer class="main-footer">
 		<div class="footer-container">
 			<div class="footer-brand">
-				<h3>Vanguard Clinic</h3>
+				<img src="/wp-content/images/vanguard-logo.png" alt="Vanguard Clinic Logo" class="footer-logo">
 				<p>Your trusted partner in health. Providing modern pharmacy solutions for the Georgetown community.</p>
 			</div>
 			<div class="footer-col">
@@ -168,9 +168,13 @@
 			</div>
 		</div>
 		<div class="footer-bottom">
-			<p>&copy; 2024 Vanguard Clinic. All rights reserved.</p>
+			<p>&copy; <span id="copyright-year"></span> Vanguard Clinic. All rights reserved.</p>
 		</div>
 	</footer>
+
+	<script>
+		document.getElementById('copyright-year').textContent = new Date().getFullYear();
+	</script>
 
 	<script>
 		document.addEventListener('DOMContentLoaded', function () {
