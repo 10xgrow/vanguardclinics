@@ -686,7 +686,7 @@
 		}
 	</style>
 	<link rel="icon" href="../../public/images/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" href="/redesign.css">
+	<link rel="stylesheet" href="/redesign.css">
 </head>
 
 <body
@@ -695,46 +695,48 @@
 	<div id="page" class="hfeed site">
 
 		<header class="main-header" id="masthead">
-    <div class="header-container">
-        <!-- Logo -->
-        <a href="https://vanguardclinics.ca" class="logo-link">
-            <img src="/wp-content/images/vanguard-logo.png" alt="Vanguard Pharmacy Logo" class="logo-img">
-        </a>
+			<div class="header-container">
+				<!-- Logo -->
+				<a href="https://vanguardclinics.ca" class="logo-link">
+					<img src="/wp-content/images/vanguard-logo.png" alt="Vanguard Pharmacy Logo" class="logo-img">
+				</a>
 
-        <!-- Desktop Navigation -->
-        <nav class="desktop-nav">
-            <a href="/" class="nav-link">Home</a>
-            <a href="/about-us/" class="nav-link">About Us</a>
-            <a href="/services/" class="nav-link">Services</a>
-            <a href="/contact-us/" class="nav-link">Contact</a>
-        </nav>
+				<!-- Desktop Navigation -->
+				<nav class="desktop-nav">
+					<a href="/" class="nav-link">Home</a>
+					<a href="/about-us/" class="nav-link">About Us</a>
+					<a href="/services/" class="nav-link">Services</a>
+					<a href="/contact-us/" class="nav-link">Contact</a>
+				</nav>
 
-        <!-- Header Actions -->
-        <div class="header-actions">
-            <a href="/contact-us" class="btn-secondary">Find Clinic</a>
-            <a href="https://vanguardpharmacy.ca/" class="btn-primary">Vanguard Pharmacy</a>
-        </div>
+				<!-- Header Actions -->
+				<div class="header-actions">
+					<a href="/contact-us" class="btn-secondary">Find Clinic</a>
+					<a href="https://vanguardpharmacy.ca/" class="btn-primary" style="color:white;">Vanguard
+						Pharmacy</a>
+				</div>
 
-        <!-- Mobile Menu Toggle -->
-        <button class="mobile-menu-toggle" aria-label="Toggle Menu">
-            <div class="hamburger"></div>
-        </button>
-    </div>
+				<!-- Mobile Menu Toggle -->
+				<button class="mobile-menu-toggle" aria-label="Toggle Menu">
+					<div class="hamburger"></div>
+				</button>
+			</div>
 
-    <!-- Mobile Menu Overlay -->
-    <div class="mobile-menu">
-        <ul class="mobile-nav-list">
-            <li class="mobile-nav-item"><a href="/" class="mobile-nav-link">Home</a></li>
-            <li class="mobile-nav-item"><a href="/about-us/" class="mobile-nav-link">About Us</a></li>
-            <li class="mobile-nav-item"><a href="/services/" class="mobile-nav-link">Services</a></li>
-            <li class="mobile-nav-item"><a href="/contact-us/" class="mobile-nav-link">Contact</a></li>
-        </ul>
-        <div class="mobile-actions">
-            <a href="/contact-us" class="btn-secondary">Find Clinic</a>
-            <a href="https://vanguardpharmacy.ca/" class="btn-primary">Vanguard Pharmacy</a>
-        </div>
-    </div>
-</header>
+			<!-- Mobile Menu Overlay -->
+			<div class="mobile-menu">
+				<ul class="mobile-nav-list">
+					<li class="mobile-nav-item"><a href="/" class="mobile-nav-link">Home</a></li>
+					<li class="mobile-nav-item"><a href="/about-us/" class="mobile-nav-link">About Us</a></li>
+					<li class="mobile-nav-item"><a href="/services/" class="mobile-nav-link">Services</a></li>
+					<li class="mobile-nav-item"><a href="/contact-us/" class="mobile-nav-link">Contact</a></li>
+				</ul>
+				<div class="mobile-actions">
+					<a href="/contact-us" class="btn-secondary">Find Clinic</a>
+					<a href="https://vanguardpharmacy.ca/" class="btn-primary" style="color:white;">Vanguard
+						Pharmacy</a>
+				</div>
+			</div>
+		</header>
 
 		<div data-elementor-type="archive" data-elementor-id="7681"
 			class="elementor elementor-7681 elementor-location-archive" data-elementor-post-type="elementor_library">
@@ -1973,40 +1975,40 @@
 		});
 	</script>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const menuToggle = document.querySelector('.mobile-menu-toggle');
-        const mobileMenu = document.querySelector('.mobile-menu');
-        const body = document.body;
-        const header = document.querySelector('.main-header');
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			const menuToggle = document.querySelector('.mobile-menu-toggle');
+			const mobileMenu = document.querySelector('.mobile-menu');
+			const body = document.body;
+			const header = document.querySelector('.main-header');
 
-        // Mobile Menu Toggle
-        menuToggle.addEventListener('click', function () {
-            menuToggle.classList.toggle('active');
-            mobileMenu.classList.toggle('active');
-            body.classList.toggle('menu-open');
-        });
+			// Mobile Menu Toggle
+			menuToggle.addEventListener('click', function () {
+				menuToggle.classList.toggle('active');
+				mobileMenu.classList.toggle('active');
+				body.classList.toggle('menu-open');
+			});
 
-        // Close menu when clicking a link
-        const mobileLinks = document.querySelectorAll('.mobile-nav-link');
-        mobileLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                menuToggle.classList.remove('active');
-                mobileMenu.classList.remove('active');
-                body.classList.remove('menu-open');
-            });
-        });
+			// Close menu when clicking a link
+			const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+			mobileLinks.forEach(link => {
+				link.addEventListener('click', () => {
+					menuToggle.classList.remove('active');
+					mobileMenu.classList.remove('active');
+					body.classList.remove('menu-open');
+				});
+			});
 
-        // Header Scroll Effect
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
-            }
-        });
-    });
-</script>
+			// Header Scroll Effect
+			window.addEventListener('scroll', () => {
+				if (window.scrollY > 50) {
+					header.classList.add('scrolled');
+				} else {
+					header.classList.remove('scrolled');
+				}
+			});
+		});
+	</script>
 </body>
 
 </html>
