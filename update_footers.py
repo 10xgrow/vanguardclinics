@@ -30,7 +30,7 @@ NEW_FOOTER_HTML = """<footer class="main-footer">
 			<div class="footer-col">
 				<h4>Contact</h4>
 				<ul class="footer-links">
-					<li><a href="tel:289-344-1144">289-344-1144</a></li>
+					<li><a href="tel:+12893441144">+1(289)344-1144</a></li>
 					<li><a href="mailto:info@vanguardrxclinics.ca">info@vanguardrxclinics.ca</a></li>
 					<li>Vanguard Pharmacy & Clinics<br> 
 					Unit 3, 400 Guelph St<br>
