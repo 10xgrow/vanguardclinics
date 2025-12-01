@@ -30,9 +30,11 @@ NEW_FOOTER_HTML = """<footer class="main-footer">
 			<div class="footer-col">
 				<h4>Contact</h4>
 				<ul class="footer-links">
-					<li><a href="tel:905-873-2020">905-873-2020</a></li>
-					<li><a href="mailto:info@vanguardclinics.ca">info@vanguardclinics.ca</a></li>
-					<li>Georgetown, ON</li>
+					<li><a href="tel:289-344-1144">289-344-1144</a></li>
+					<li><a href="mailto:info@vanguardrxclinics.ca">info@vanguardrxclinics.ca</a></li>
+					<li>Vanguard Pharmacy & Clinics<br> 
+					Unit 3, 400 Guelph St<br>
+					Georgetown, Ontario L7G 0J2</li>
 				</ul>
 			</div>
 		</div>
